@@ -1,2 +1,2 @@
-# index-ua-new
-Energy Transparency Index UA
+# Energy Transparency Index UA
+v.2024
