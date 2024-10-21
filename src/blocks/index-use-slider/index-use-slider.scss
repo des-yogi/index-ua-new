@@ -1,0 +1,95 @@
+.index-use-slider {
+  padding-top: 28px;
+  margin-top: 32px;
+  border-top: 2px solid $divider-color;
+
+  $block-name:                &; // #{$block-name}__element
+
+  &__title {
+    margin: 0 0 24px;
+  }
+
+  &__intro {
+    margin-bottom: 32px;
+  }
+
+  &__container {
+    padding-top: 16px;
+  }
+
+  &__slide {
+    background-color: $block-bg;
+    border-radius: $border-radius;
+
+    &::before {
+      display: block;
+      content: '';
+      position: absolute;
+      top: -16px;
+      right: 16px;
+      width: 40px;
+      height: 40px;
+      background-color: $white;
+      background-image: svg-load('../blocks/sprite-svg/svg/quote.svg', fill=$border-color);
+      background-size: 24px;
+      background-position: center;
+      background-repeat: no-repeat;
+      border: 2px solid $border-color;
+      border-radius: 50%;
+    }
+  }
+
+  &__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0 32px;
+    padding: 24px;
+    border-bottom: 2px solid $divider-color;
+
+    @media (max-width: $screen-md - 1) {
+      text-align: center;
+      gap: 24px 0;
+    }
+
+    @media (min-width: $screen-md) {
+      flex-direction: initial;
+    }
+  }
+
+  &__text {
+    padding: 24px;
+
+    p {
+      margin: 0;
+    }
+
+    p + p {
+      margin-top: 16px;
+    }
+  }
+
+  &__logo {
+    flex: 0 0 88px;
+
+    @media (max-width: $screen-md - 1) {
+      width: 88px;
+    }
+
+    @media (min-width: $screen-md) {
+      flex-basis: 116px;
+    }
+  }
+
+  &__slide-title {
+    margin: 0;
+    font-size: $font-size-md;
+    font-weight: 600;
+  }
+
+  &__controls {
+    justify-content: center;
+    gap: 0 32px;
+    margin-top: 24px;
+  }
+}

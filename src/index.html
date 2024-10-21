@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html class="no-js  page" lang="uk" prefix="og: https://ogp.me/ns#">
+
+<head>
+  <meta charset="utf-8">
+  <title>Home page</title>
+  @@include('_include/page_head.html')
+</head>
+
+<body>
+<noscript>У вас отключен JavaScript. Приносим наши извинения, но это делает затруднительным использование данного сайта.</noscript>
+
+  <div class="page__inner">
+
+    <div class="page__content">
+      @@include('blocks/page-header/page-header.html')
+
+      <main class="main">
+
+        <div class="container  intro-block">
+          <div class="row">
+            <div class="intro-block__col  intro-block__col--text">
+              <h1 class="intro-block__title">Індекс прозорості енергетики України</h1>
+              <div class="intro-block__text">
+                <p>Індекс прозорості енергетики розроблено для комплексного оцінювання доступності та якості інформації у енергетичному секторі.</p>
+                <p>Індекс - це:</p>
+                <ul>
+                  <li>кінцевий продукт, що надає загальну та деталізовану оцінки інформаційній відкритості енергетичного сектору країни й діагностує прогалини;</li>
+                  <li>універсальний інструмент, який дозволяє аналізувати прозорість за окремими категоріями, енергетичними ринками та індикаторами, відстежувати прогрес як у динаміці, так і в порівнянні з іншими країнами.</li>
+                </ul>
+                <p>Головним кінцевим бенефіціаром Індексу є споживач, обізнаність якого покращує можливості захисту своїх прав, допомагає бути повноцінним учасником ринку і приймати більш раціональні економічні рішення.</p>
+              </div>
+              <div class="intro-block__link-wrapper">
+                <a href="#" class="btn"><span>Детальніше</span></a>
+              </div>
+            </div>
+
+            <div class="intro-block__col">
+              <div class="embed-responsive embed-responsive--1-1  intro-block__img">
+                <picture>
+                  <source srcset="img/hero-1.webp 585w,
+                                  img/hero-1.webp 700w,
+                                  img/hero-1.webp 800w,
+                                  img/hero-1.webp 900w"
+                          sizes="(max-width: 620px) 95vw, 585px"
+                          type="image/webp">
+
+                  <source srcset="img/hero-1.jpg 585w,
+                                  img/hero-1.jpg 700w,
+                                  img/hero-1.jpg 800w,
+                                  img/hero-1.jpg 900w"
+                          sizes="(max-width: 620px) 95vw, 585px">
+
+                  <img src="img/hero-1.jpg" alt="alt text" width="585" height="585">
+                </picture>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        @@include('blocks/country-slider/country-slider.html')
+
+        <div class="container  download-index__wrapper" style="background-color:#f5f5f5;">
+          @@include('blocks/download-index/download-index.html')
+        </div>
+
+        @@include('blocks/partner-projects/partner-projects.html')
+
+      </main>
+
+    </div>
+
+    <div class="page__footer-wrapper">
+      @@include('blocks/page-footer/page-footer.html')
+    </div>
+
+  </div>
+
+  @@include('blocks/modal-form/modal-form.html')
+
+  @@include('_include/page_bottom.html')
+
+</body>
+</html>

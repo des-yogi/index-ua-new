@@ -1,0 +1,44 @@
+<!--DEV
+@ @include('blocks/page-header/page-header.html')
+-->
+<div class="page-header__wrapper">
+  <header class="page-header" id="header">
+
+    <div class="container  page-header__inner">
+
+      <div class="container  page-header__logotypes">
+
+          <a href="index.html" class="logo" title="Індекс прозорості енергетики України">
+            <img src="img/index-ua-logo.svg" alt="Індекс прозорості енергетики України logo" width="284" height="64">
+          </a>
+
+          <a href="#" class="page-header__dixi-logo" title="DixiGroup">
+            <img src="img/dixigroup-logo.svg" width="181" height="40" alt="Dixigroup">
+          </a>
+
+      </div>
+
+      <div class="container  page-header__service">
+        <button class="btn  btn--stroke  page-header__table-btn" data-bs-toggle="modal" data-bs-target="#formModal">
+          <svg width="24" height="24"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-svg.svg#download-table"></use></svg>
+          <span>Таблиці індикаторів</span>
+        </button>
+
+        <a href="#" class="btn  btn--stroke  lang-switcher">
+          <span>Eng</span>
+        </a>
+        @@include('../../blocks/burger/burger.html')
+      </div>
+
+    </div>
+
+
+    <div id="collapseMenu" class="container  page-header__nav-wrapper  collapse">
+      <button class="btn  btn--stroke  page-header__table-btn" data-bs-toggle="modal" data-bs-target="#formModal">
+        <svg width="24" height="24"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-svg.svg#download-table"></use></svg>
+        <span>Таблиці індикаторів</span>
+      </button>
+      @@include('../../blocks/main-nav/main-nav.html')
+    </div>
+  </header>
+</div>

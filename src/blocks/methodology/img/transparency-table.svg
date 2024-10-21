@@ -1,0 +1,435 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="729" fill="none" viewBox="0 0 720 729">
+  <path fill="#fff" d="M0 0h720v729H0z"/>
+  <text xml:space="preserve" fill="#111" font-family="Golos Text" font-size="12" font-weight="bold" letter-spacing="0" style="white-space:pre"><tspan x="64.29" y="38.06">Score</tspan></text>
+  <text xml:space="preserve" fill="#111" font-family="Golos Text" font-size="12" font-weight="bold" letter-spacing="0" style="white-space:pre"><tspan x="131.06" y="38.06">Rating</tspan></text>
+  <text xml:space="preserve" fill="#111" font-family="Golos Text" font-size="12" font-weight="bold" letter-spacing="0" style="white-space:pre"><tspan x="202" y="38.06">Characteristic</tspan></text>
+  <g clip-path="url(#a)">
+    <g opacity=".4">
+      <mask id="c" width="114" height="42" x="0" y="51" maskUnits="userSpaceOnUse" style="mask-type:alpha">
+        <path fill="url(#b)" d="M0 0h114v42H0z" transform="matrix(-1 0 0 1 114 51)"/>
+      </mask>
+      <g mask="url(#c)">
+        <path fill="#fff" d="M114 51H0v42h114V51Z"/>
+      </g>
+    </g>
+    <text xml:space="preserve" fill="#111" font-family="Golos Text" font-size="16" letter-spacing="0" style="white-space:pre"><tspan x="37.34" y="78.08">95 - 100</tspan></text>
+  </g>
+  <rect width="56" height="42" x="122" y="51" fill="#19AA52" rx="2"/>
+  <text xml:space="preserve" fill="#fff" font-family="Golos Text" font-size="16" font-weight="bold" letter-spacing="0" style="white-space:pre"><tspan x="139.68" y="78.08">A+</tspan></text>
+  <g opacity=".25">
+    <mask id="e" width="534" height="42" x="186" y="51" maskUnits="userSpaceOnUse" style="mask-type:alpha">
+      <path fill="url(#d)" d="M186 51h534v42H186z"/>
+    </mask>
+    <g mask="url(#e)">
+      <path fill="#fff" d="M720 51H186v42h534V51Z"/>
+    </g>
+  </g>
+  <text xml:space="preserve" fill="#111" font-family="Golos Text" font-size="16" letter-spacing="0" style="white-space:pre"><tspan x="202" y="78.08">Absolute transparency</tspan></text>
+  <path stroke="#E8E8E8" stroke-width="2" d="M0 101h720"/>
+  <g clip-path="url(#f)">
+    <g opacity=".4">
+      <mask id="h" width="114" height="42" x="0" y="109" maskUnits="userSpaceOnUse" style="mask-type:alpha">
+        <path fill="url(#g)" d="M0 0h114v42H0z" transform="matrix(-1 0 0 1 114 109)"/>
+      </mask>
+      <g mask="url(#h)">
+        <path fill="#fff" d="M114 109H0v42h114v-42Z"/>
+      </g>
+    </g>
+    <text xml:space="preserve" fill="#111" font-family="Golos Text" font-size="16" letter-spacing="0" style="white-space:pre"><tspan x="44.86" y="136.08">90 - 94</tspan></text>
+  </g>
+  <rect width="56" height="42" x="122" y="109" fill="#7DC374" rx="2"/>
+  <text xml:space="preserve" fill="#fff" font-family="Golos Text" font-size="16" font-weight="bold" letter-spacing="0" style="white-space:pre"><tspan x="144.32" y="136.08">A</tspan></text>
+  <g opacity=".25">
+    <mask id="j" width="534" height="42" x="186" y="109" maskUnits="userSpaceOnUse" style="mask-type:alpha">
+      <path fill="url(#i)" d="M186 109h534v42H186z"/>
+    </mask>
+    <g mask="url(#j)">
+      <path fill="#fff" d="M720 109H186v42h534v-42Z"/>
+    </g>
+  </g>
+  <text xml:space="preserve" fill="#111" font-family="Golos Text" font-size="16" letter-spacing="0" style="white-space:pre"><tspan x="202" y="159.08">Excelent transparency</tspan></text>
+  <g clip-path="url(#k)">
+    <g opacity=".4">
+      <mask id="m" width="114" height="42" x="0" y="155" maskUnits="userSpaceOnUse" style="mask-type:alpha">
+        <path fill="url(#l)" d="M0 0h114v42H0z" transform="matrix(-1 0 0 1 114 155)"/>
+      </mask>
+      <g mask="url(#m)">
+        <path fill="#fff" d="M114 155H0v42h114v-42Z"/>
+      </g>
+    </g>
+    <text xml:space="preserve" fill="#111" font-family="Golos Text" font-size="16" letter-spacing="0" style="white-space:pre"><tspan x="45.42" y="182.08">85 - 89</tspan></text>
+  </g>
+  <path fill="#ABD59E" d="M122 155h56v42h-56z"/>
+  <text xml:space="preserve" fill="#fff" font-family="Golos Text" font-size="16" font-weight="bold" letter-spacing="0" style="white-space:pre"><tspan x="141.28" y="182.08">A-</tspan></text>
+  <g opacity=".25">
+    <mask id="o" width="534" height="42" x="186" y="155" maskUnits="userSpaceOnUse" style="mask-type:alpha">
+      <path fill="url(#n)" d="M186 155h534v42H186z"/>
+    </mask>
+    <g mask="url(#o)">
+      <path fill="#fff" d="M720 155H186v42h534v-42Z"/>
+    </g>
+  </g>
+  <path stroke="#E8E8E8" stroke-width="2" d="M0 205h720"/>
+  <g clip-path="url(#p)">
+    <g opacity=".4">
+      <mask id="r" width="114" height="42" x="0" y="213" maskUnits="userSpaceOnUse" style="mask-type:alpha">
+        <path fill="url(#q)" d="M0 0h114v42H0z" transform="matrix(-1 0 0 1 114 213)"/>
+      </mask>
+      <g mask="url(#r)">
+        <path fill="#fff" d="M114 213H0v42h114v-42Z"/>
+      </g>
+    </g>
+    <text xml:space="preserve" fill="#111" font-family="Golos Text" font-size="16" letter-spacing="0" style="white-space:pre"><tspan x="44.7" y="240.08">80 - 84</tspan></text>
+  </g>
+  <path fill="#1791D2" d="M122 213h56v42h-56z"/>
+  <text xml:space="preserve" fill="#fff" font-family="Golos Text" font-size="16" font-weight="bold" letter-spacing="0" style="white-space:pre"><tspan x="139.72" y="240.08">B+</tspan></text>
+  <g opacity=".25">
+    <mask id="t" width="534" height="42" x="186" y="213" maskUnits="userSpaceOnUse" style="mask-type:alpha">
+      <path fill="url(#s)" d="M186 213h534v42H186z"/>
+    </mask>
+    <g mask="url(#t)">
+      <path fill="#fff" d="M720 213H186v42h534v-42Z"/>
+    </g>
+  </g>
+  <g clip-path="url(#u)">
+    <g opacity=".4">
+      <mask id="w" width="114" height="42" x="0" y="259" maskUnits="userSpaceOnUse" style="mask-type:alpha">
+        <path fill="url(#v)" d="M0 0h114v42H0z" transform="matrix(-1 0 0 1 114 259)"/>
+      </mask>
+      <g mask="url(#w)">
+        <path fill="#fff" d="M114 259H0v42h114v-42Z"/>
+      </g>
+    </g>
+    <text xml:space="preserve" fill="#111" font-family="Golos Text" font-size="16" letter-spacing="0" style="white-space:pre"><tspan x="47.98" y="286.08">75 - 79</tspan></text>
+  </g>
+  <path fill="#44B5E5" d="M122 259h56v42h-56z"/>
+  <text xml:space="preserve" fill="#fff" font-family="Golos Text" font-size="16" font-weight="bold" letter-spacing="0" style="white-space:pre"><tspan x="144.36" y="286.08">B</tspan></text>
+  <g opacity=".4">
+    <mask id="y" width="534" height="42" x="186" y="259" maskUnits="userSpaceOnUse" style="mask-type:alpha">
+      <path fill="url(#x)" d="M186 259h534v42H186z"/>
+    </mask>
+    <g mask="url(#y)">
+      <path fill="#fff" d="M720 259H186v42h534v-42Z"/>
+    </g>
+  </g>
+  <text xml:space="preserve" fill="#111" font-family="Golos Text" font-size="16" letter-spacing="0" style="white-space:pre"><tspan x="202" y="286.08">Good transparency</tspan></text>
+  <g clip-path="url(#z)">
+    <g opacity=".4">
+      <mask id="B" width="114" height="42" x="0" y="305" maskUnits="userSpaceOnUse" style="mask-type:alpha">
+        <path fill="url(#A)" d="M0 0h114v42H0z" transform="matrix(-1 0 0 1 114 305)"/>
+      </mask>
+      <g mask="url(#B)">
+        <path fill="#fff" d="M114 305H0v42h114v-42Z"/>
+      </g>
+    </g>
+    <text xml:space="preserve" fill="#111" font-family="Golos Text" font-size="16" letter-spacing="0" style="white-space:pre"><tspan x="47.27" y="332.08">70 - 74</tspan></text>
+  </g>
+  <path fill="#93CEEF" d="M122 305h56v42h-56z"/>
+  <text xml:space="preserve" fill="#fff" font-family="Golos Text" font-size="16" font-weight="bold" letter-spacing="0" style="white-space:pre"><tspan x="141.32" y="332.08">B-</tspan></text>
+  <g opacity=".25">
+    <mask id="D" width="534" height="42" x="186" y="305" maskUnits="userSpaceOnUse" style="mask-type:alpha">
+      <path fill="url(#C)" d="M186 305h534v42H186z"/>
+    </mask>
+    <g mask="url(#D)">
+      <path fill="#fff" d="M720 305H186v42h534v-42Z"/>
+    </g>
+  </g>
+  <path stroke="#E8E8E8" stroke-width="2" d="M0 355h720"/>
+  <g clip-path="url(#E)">
+    <g opacity=".4">
+      <mask id="G" width="114" height="42" x="0" y="363" maskUnits="userSpaceOnUse" style="mask-type:alpha">
+        <path fill="url(#F)" d="M0 0h114v42H0z" transform="matrix(-1 0 0 1 114 363)"/>
+      </mask>
+      <g mask="url(#G)">
+        <path fill="#fff" d="M114 363H0v42h114v-42Z"/>
+      </g>
+    </g>
+    <text xml:space="preserve" fill="#111" font-family="Golos Text" font-size="16" letter-spacing="0" style="white-space:pre"><tspan x="45.58" y="390.08">65 - 69</tspan></text>
+  </g>
+  <path fill="#F7E931" d="M122 363h56v42h-56z"/>
+  <text xml:space="preserve" fill="#111" font-family="Golos Text" font-size="16" font-weight="bold" letter-spacing="0" style="white-space:pre"><tspan x="139.68" y="390.08">C+</tspan></text>
+  <g opacity=".25">
+    <mask id="I" width="534" height="42" x="186" y="363" maskUnits="userSpaceOnUse" style="mask-type:alpha">
+      <path fill="url(#H)" d="M186 363h534v42H186z"/>
+    </mask>
+    <g mask="url(#I)">
+      <path fill="#fff" d="M720 363H186v42h534v-42Z"/>
+    </g>
+  </g>
+  <g clip-path="url(#J)">
+    <g opacity=".4">
+      <mask id="L" width="114" height="42" x="0" y="409" maskUnits="userSpaceOnUse" style="mask-type:alpha">
+        <path fill="url(#K)" d="M0 0h114v42H0z" transform="matrix(-1 0 0 1 114 409)"/>
+      </mask>
+      <g mask="url(#L)">
+        <path fill="#fff" d="M114 409H0v42h114v-42Z"/>
+      </g>
+    </g>
+    <text xml:space="preserve" fill="#111" font-family="Golos Text" font-size="16" letter-spacing="0" style="white-space:pre"><tspan x="44.86" y="436.08">60 - 64</tspan></text>
+  </g>
+  <path fill="#F4EB60" d="M122 409h56v42h-56z"/>
+  <text xml:space="preserve" fill="#111" font-family="Golos Text" font-size="16" font-weight="bold" letter-spacing="0" style="white-space:pre"><tspan x="144.32" y="436.08">C</tspan></text>
+  <g opacity=".4">
+    <mask id="N" width="534" height="42" x="186" y="409" maskUnits="userSpaceOnUse" style="mask-type:alpha">
+      <path fill="url(#M)" d="M186 409h534v42H186z"/>
+    </mask>
+    <g mask="url(#N)">
+      <path fill="#fff" d="M720 409H186v42h534v-42Z"/>
+    </g>
+  </g>
+  <text xml:space="preserve" fill="#111" font-family="Golos Text" font-size="16" letter-spacing="0" style="white-space:pre"><tspan x="202" y="436.08">Medium transparency</tspan></text>
+  <g clip-path="url(#O)">
+    <g opacity=".4">
+      <mask id="Q" width="114" height="42" x="0" y="455" maskUnits="userSpaceOnUse" style="mask-type:alpha">
+        <path fill="url(#P)" d="M0 0h114v42H0z" transform="matrix(-1 0 0 1 114 455)"/>
+      </mask>
+      <g mask="url(#Q)">
+        <path fill="#fff" d="M114 455H0v42h114v-42Z"/>
+      </g>
+    </g>
+    <text xml:space="preserve" fill="#111" font-family="Golos Text" font-size="16" letter-spacing="0" style="white-space:pre"><tspan x="46.39" y="482.08">55 - 59</tspan></text>
+  </g>
+  <path fill="#F8F5B2" d="M122 455h56v42h-56z"/>
+  <text xml:space="preserve" fill="#111" font-family="Golos Text" font-size="16" font-weight="bold" letter-spacing="0" style="white-space:pre"><tspan x="141.28" y="482.08">C-</tspan></text>
+  <g opacity=".25">
+    <mask id="S" width="534" height="42" x="186" y="455" maskUnits="userSpaceOnUse" style="mask-type:alpha">
+      <path fill="url(#R)" d="M186 455h534v42H186z"/>
+    </mask>
+    <g mask="url(#S)">
+      <path fill="#fff" d="M720 455H186v42h534v-42Z"/>
+    </g>
+  </g>
+  <path stroke="#E8E8E8" stroke-width="2" d="M0 505h720"/>
+  <g clip-path="url(#T)">
+    <g opacity=".4">
+      <mask id="V" width="114" height="42" x="0" y="513" maskUnits="userSpaceOnUse" style="mask-type:alpha">
+        <path fill="url(#U)" d="M0 0h114v42H0z" transform="matrix(-1 0 0 1 114 513)"/>
+      </mask>
+      <g mask="url(#V)">
+        <path fill="#fff" d="M114 513H0v42h114v-42Z"/>
+      </g>
+    </g>
+    <text xml:space="preserve" fill="#111" font-family="Golos Text" font-size="16" letter-spacing="0" style="white-space:pre"><tspan x="45.67" y="540.08">50 - 54</tspan></text>
+  </g>
+  <path fill="#F6BA3E" d="M122 513h56v42h-56z"/>
+  <text xml:space="preserve" fill="#fff" font-family="Golos Text" font-size="16" font-weight="bold" letter-spacing="0" style="white-space:pre"><tspan x="139.72" y="540.08">B+</tspan></text>
+  <g opacity=".25">
+    <mask id="X" width="534" height="42" x="186" y="513" maskUnits="userSpaceOnUse" style="mask-type:alpha">
+      <path fill="url(#W)" d="M186 513h534v42H186z"/>
+    </mask>
+    <g mask="url(#X)">
+      <path fill="#fff" d="M720 513H186v42h534v-42Z"/>
+    </g>
+  </g>
+  <g clip-path="url(#Y)">
+    <g opacity=".4">
+      <mask id="aa" width="114" height="42" x="0" y="559" maskUnits="userSpaceOnUse" style="mask-type:alpha">
+        <path fill="url(#Z)" d="M0 0h114v42H0z" transform="matrix(-1 0 0 1 114 559)"/>
+      </mask>
+      <g mask="url(#aa)">
+        <path fill="#fff" d="M114 559H0v42h114v-42Z"/>
+      </g>
+    </g>
+    <text xml:space="preserve" fill="#111" font-family="Golos Text" font-size="16" letter-spacing="0" style="white-space:pre"><tspan x="45.42" y="586.08">45 - 49</tspan></text>
+  </g>
+  <path fill="#EE7832" d="M122 559h56v42h-56z"/>
+  <text xml:space="preserve" fill="#fff" font-family="Golos Text" font-size="16" font-weight="bold" letter-spacing="0" style="white-space:pre"><tspan x="144.36" y="586.08">B</tspan></text>
+  <g opacity=".4">
+    <mask id="ac" width="534" height="42" x="186" y="559" maskUnits="userSpaceOnUse" style="mask-type:alpha">
+      <path fill="url(#ab)" d="M186 559h534v42H186z"/>
+    </mask>
+    <g mask="url(#ac)">
+      <path fill="#fff" d="M720 559H186v42h534v-42Z"/>
+    </g>
+  </g>
+  <text xml:space="preserve" fill="#111" font-family="Golos Text" font-size="16" letter-spacing="0" style="white-space:pre"><tspan x="202" y="586.08">Insufficient transparency</tspan></text>
+  <g clip-path="url(#ad)">
+    <g opacity=".4">
+      <mask id="af" width="114" height="42" x="0" y="605" maskUnits="userSpaceOnUse" style="mask-type:alpha">
+        <path fill="url(#ae)" d="M0 0h114v42H0z" transform="matrix(-1 0 0 1 114 605)"/>
+      </mask>
+      <g mask="url(#af)">
+        <path fill="#fff" d="M114 605H0v42h114v-42Z"/>
+      </g>
+    </g>
+    <text xml:space="preserve" fill="#111" font-family="Golos Text" font-size="16" letter-spacing="0" style="white-space:pre"><tspan x="44.7" y="632.08">40 - 44</tspan></text>
+  </g>
+  <path fill="#EB3F3F" d="M122 605h56v42h-56z"/>
+  <text xml:space="preserve" fill="#fff" font-family="Golos Text" font-size="16" font-weight="bold" letter-spacing="0" style="white-space:pre"><tspan x="141.32" y="632.08">B-</tspan></text>
+  <g opacity=".25">
+    <mask id="ah" width="534" height="42" x="186" y="605" maskUnits="userSpaceOnUse" style="mask-type:alpha">
+      <path fill="url(#ag)" d="M186 605h534v42H186z"/>
+    </mask>
+    <g mask="url(#ah)">
+      <path fill="#fff" d="M720 605H186v42h534v-42Z"/>
+    </g>
+  </g>
+  <path stroke="#E8E8E8" stroke-width="2" d="M0 655h720"/>
+  <g clip-path="url(#ai)">
+    <g opacity=".4">
+      <mask id="ak" width="114" height="42" x="0" y="663" maskUnits="userSpaceOnUse" style="mask-type:alpha">
+        <path fill="url(#aj)" d="M0 0h114v42H0z" transform="matrix(-1 0 0 1 114 663)"/>
+      </mask>
+      <g mask="url(#ak)">
+        <path fill="#fff" d="M114 663H0v42h114v-42Z"/>
+      </g>
+    </g>
+    <text xml:space="preserve" fill="#111" font-family="Golos Text" font-size="16" letter-spacing="0" style="white-space:pre"><tspan x="54.95" y="690.08">0 - 39</tspan></text>
+  </g>
+  <path fill="#3F2F39" d="M122 663h56v42h-56z"/>
+  <text xml:space="preserve" fill="#fff" font-family="Golos Text" font-size="16" font-weight="bold" letter-spacing="0" style="white-space:pre"><tspan x="144.36" y="690.08">B</tspan></text>
+  <g opacity=".4">
+    <mask id="am" width="534" height="42" x="186" y="663" maskUnits="userSpaceOnUse" style="mask-type:alpha">
+      <path fill="url(#al)" d="M186 663h534v42H186z"/>
+    </mask>
+    <g mask="url(#am)">
+      <path fill="#fff" d="M720 663H186v42h534v-42Z"/>
+    </g>
+  </g>
+  <text xml:space="preserve" fill="#111" font-family="Golos Text" font-size="16" letter-spacing="0" style="white-space:pre"><tspan x="202" y="690.08">Unacceptable transparency</tspan></text>
+  <defs>
+    <linearGradient id="b" x1="0" x2="114" y1="21" y2="21" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#19AA52"/>
+      <stop offset="1" stop-color="#19AA52" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="d" x1="186" x2="720" y1="72" y2="72" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#19AA52"/>
+      <stop offset="1" stop-color="#19AA52" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="g" x1="0" x2="114" y1="21" y2="21" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#19AA52"/>
+      <stop offset="1" stop-color="#19AA52" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="i" x1="186" x2="720" y1="130" y2="130" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#19AA52"/>
+      <stop offset="1" stop-color="#19AA52" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="l" x1="0" x2="114" y1="21" y2="21" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#19AA52"/>
+      <stop offset="1" stop-color="#19AA52" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="n" x1="186" x2="720" y1="176" y2="176" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#19AA52"/>
+      <stop offset="1" stop-color="#19AA52" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="q" x1="0" x2="114" y1="21" y2="21" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#19AA52"/>
+      <stop offset="1" stop-color="#19AA52" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="s" x1="186" x2="720" y1="234" y2="234" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#19AA52"/>
+      <stop offset="1" stop-color="#19AA52" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="v" x1="0" x2="114" y1="21" y2="21" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#19AA52"/>
+      <stop offset="1" stop-color="#19AA52" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="x" x1="186" x2="720" y1="280" y2="280" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#19AA52"/>
+      <stop offset="1" stop-color="#19AA52" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="A" x1="0" x2="114" y1="21" y2="21" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#19AA52"/>
+      <stop offset="1" stop-color="#19AA52" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="C" x1="186" x2="720" y1="326" y2="326" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#19AA52"/>
+      <stop offset="1" stop-color="#19AA52" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="F" x1="0" x2="114" y1="21" y2="21" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#19AA52"/>
+      <stop offset="1" stop-color="#19AA52" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="H" x1="186" x2="720" y1="384" y2="384" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#19AA52"/>
+      <stop offset="1" stop-color="#19AA52" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="K" x1="0" x2="114" y1="21" y2="21" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#19AA52"/>
+      <stop offset="1" stop-color="#19AA52" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="M" x1="186" x2="720" y1="430" y2="430" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#19AA52"/>
+      <stop offset="1" stop-color="#19AA52" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="P" x1="0" x2="114" y1="21" y2="21" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#19AA52"/>
+      <stop offset="1" stop-color="#19AA52" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="R" x1="186" x2="720" y1="476" y2="476" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#19AA52"/>
+      <stop offset="1" stop-color="#19AA52" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="U" x1="0" x2="114" y1="21" y2="21" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#19AA52"/>
+      <stop offset="1" stop-color="#19AA52" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="W" x1="186" x2="720" y1="534" y2="534" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#19AA52"/>
+      <stop offset="1" stop-color="#19AA52" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="Z" x1="0" x2="114" y1="21" y2="21" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#19AA52"/>
+      <stop offset="1" stop-color="#19AA52" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="ab" x1="186" x2="720" y1="580" y2="580" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#19AA52"/>
+      <stop offset="1" stop-color="#19AA52" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="ae" x1="0" x2="114" y1="21" y2="21" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#19AA52"/>
+      <stop offset="1" stop-color="#19AA52" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="ag" x1="186" x2="720" y1="626" y2="626" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#19AA52"/>
+      <stop offset="1" stop-color="#19AA52" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="aj" x1="0" x2="114" y1="21" y2="21" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#19AA52"/>
+      <stop offset="1" stop-color="#19AA52" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="al" x1="186" x2="720" y1="684" y2="684" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#19AA52"/>
+      <stop offset="1" stop-color="#19AA52" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="a">
+      <rect width="114" height="42" y="51" fill="#fff" rx="2"/>
+    </clipPath>
+    <clipPath id="f">
+      <rect width="114" height="42" y="109" fill="#fff" rx="2"/>
+    </clipPath>
+    <clipPath id="k">
+      <rect width="114" height="42" y="155" fill="#fff" rx="2"/>
+    </clipPath>
+    <clipPath id="p">
+      <rect width="114" height="42" y="213" fill="#fff" rx="2"/>
+    </clipPath>
+    <clipPath id="u">
+      <rect width="114" height="42" y="259" fill="#fff" rx="2"/>
+    </clipPath>
+    <clipPath id="z">
+      <rect width="114" height="42" y="305" fill="#fff" rx="2"/>
+    </clipPath>
+    <clipPath id="E">
+      <rect width="114" height="42" y="363" fill="#fff" rx="2"/>
+    </clipPath>
+    <clipPath id="J">
+      <rect width="114" height="42" y="409" fill="#fff" rx="2"/>
+    </clipPath>
+    <clipPath id="O">
+      <rect width="114" height="42" y="455" fill="#fff" rx="2"/>
+    </clipPath>
+    <clipPath id="T">
+      <rect width="114" height="42" y="513" fill="#fff" rx="2"/>
+    </clipPath>
+    <clipPath id="Y">
+      <rect width="114" height="42" y="559" fill="#fff" rx="2"/>
+    </clipPath>
+    <clipPath id="ad">
+      <rect width="114" height="42" y="605" fill="#fff" rx="2"/>
+    </clipPath>
+    <clipPath id="ai">
+      <rect width="114" height="42" y="663" fill="#fff" rx="2"/>
+    </clipPath>
+  </defs>
+</svg>

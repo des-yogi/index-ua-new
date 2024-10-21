@@ -1,0 +1,36 @@
+.page-404 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+  $block-name:                &; // #{$block-name}__element
+
+  &__text-col {
+    @include col(xs, 12);
+    @include col(xl, 5);
+    margin-bottom: 24px;
+    text-align: center;
+
+    & > * + * {
+      margin-top: 24px !important;
+      margin-bottom: 0 !important;
+    }
+
+    @media (min-width: $screen-xl) {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      margin-bottom: 0;
+    }
+  }
+
+  &__img-col {
+    @include col(xs, 12);
+    @include col(xl, 7);
+  }
+
+  &__title {
+    margin-bottom: 0;
+    font-size: $font-size-display;
+  }
+}

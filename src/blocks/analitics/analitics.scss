@@ -1,0 +1,25 @@
+.analitics {
+  padding: 40px 0;
+
+  &:last-child {
+    padding-bottom: 0;
+  }
+
+  $block-name:                &; // #{$block-name}__element
+
+  &__text {
+    margin-bottom: 16px;
+  }
+
+  &__diag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: auto;
+
+    & > * {
+      flex: 1 0 100%;
+      min-width: 640px;
+    }
+  }
+}

@@ -1,0 +1,48 @@
+.category-analysis {
+  padding-top: 48px;
+  padding-bottom: 48px;
+  border-bottom: 2px solid $divider-color;
+
+  @media (min-width: $screen-md) {
+    padding-top: 56px;
+    padding-bottom: 56px;
+  }
+
+  @media (min-width: $screen-xl) {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+
+  $block-name:                &; // #{$block-name}__element
+
+  &__col {
+
+    @media (min-width: $screen-xl) {
+      max-width: 584px;
+    }
+  }
+
+  &__header {
+    margin-bottom: 24px;
+
+    // @media (min-width: $screen-md) {
+    //   max-width: calc(75% - 16px);
+    // }
+
+    // @media (min-width: $screen-xl) {
+    //   //max-width: calc(50% - 16px);
+    //   max-width: 100%;
+    // }
+  }
+
+  &__title {
+    margin-top: 0;
+  }
+
+  &__diagram-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 24px;
+  }
+}

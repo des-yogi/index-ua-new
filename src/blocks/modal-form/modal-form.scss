@@ -1,0 +1,69 @@
+.modal-form {
+
+  $block-name:                &; // #{$block-name}__element
+
+  .btn {
+    width: 100%;
+  }
+
+  .modal-dialog {
+
+    @media (min-width: $screen-md) {
+      max-width: 600px;
+    }
+  }
+
+  .modal-header,
+  .modal-body,
+  .modal-footer {
+
+    @media (min-width: $screen-md) {
+      padding-right: 64px;
+      padding-left: 64px;
+    }
+  }
+
+  .modal-header {
+
+    @media (min-width: $screen-md) {
+      padding-top: 40px;
+    }
+  }
+
+  .modal-body {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .modal-footer {
+    padding-bottom: 24px;
+
+    @media (min-width: $screen-md) {
+      padding-bottom: 40px;
+    }
+  }
+
+  .field-checkbox__wrapper {
+
+    @media (min-width: $screen-md) {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 0 24px;
+    }
+
+    .field-checkbox {
+
+      @media (min-width: $screen-md) {
+        flex: 1 0;
+        flex-basis: calc(50% - 12px);
+
+      }
+    }
+  }
+
+
+  &__title {
+    font-size: 18px;
+  }
+}

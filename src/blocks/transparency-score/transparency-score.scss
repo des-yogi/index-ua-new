@@ -1,0 +1,114 @@
+.transparency-score {
+  padding-top: 48px;
+  padding-bottom: 48px;
+  border-bottom: 2px solid $divider-color;
+
+  @media (min-width: $screen-md) {
+    padding-top: 56px;
+    padding-bottom: 56px;
+  }
+
+  @media (min-width: $screen-xl) {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+
+  $block-name:                &; // #{$block-name}__element
+
+  &__header {
+    margin-bottom: 24px;
+
+    // @media (min-width: $screen-md) {
+    //   max-width: calc(75% - 16px);
+    // }
+
+    // @media (min-width: $screen-xl) {
+    //   //max-width: calc(50% - 16px);
+    //   max-width: 100%;
+    // }
+  }
+
+  &__title {
+    margin-top: 0;
+  }
+
+  &__table-wrapper {
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+    padding-bottom: 16px;
+    overflow-x: auto;
+  }
+
+  &__table {
+    border: none;
+
+    th,
+    td {
+      border: none;
+
+      &.top-border {
+        padding: 0;
+
+        span {
+          display: block;
+          padding: 12px 8px 8px;
+          margin-right: 24px;
+          border-top: 2px solid $divider-color;
+        }
+      }
+
+      &:first-child {
+        white-space: nowrap;
+        //padding-right: 32px;
+      }
+
+      &:not(:first-child) {
+        border-left: none;
+      }
+    }
+
+    th {
+      font-weight: 700;
+
+      &:not(:first-child) {
+        width: calc(100% / 5);
+        min-width: 130px;
+        text-align: center;
+      }
+
+      &:first-child {
+        min-width: 200px;
+        padding: 8px 8px 12px;
+        vertical-align: bottom !important;
+      }
+    }
+  }
+
+  &__bar-wrapper {
+    position: relative;
+    height: 27px;
+    background-color: $bg-light;
+    border-radius: $border-radius;
+    overflow: hidden;
+  }
+
+  &__bar {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+  &__value {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    padding: 0 12px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    color: $text-color;
+  }
+}
