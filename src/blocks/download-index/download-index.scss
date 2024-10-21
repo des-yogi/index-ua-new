@@ -1,0 +1,84 @@
+.download-index {
+
+  $block-name:                &; // #{$block-name}__element
+
+  & + & {
+    padding-top: 40px;
+    margin-top: 40px;
+    border-top: 1px solid $border-color;
+  }
+
+  &__wrapper {
+    padding-top: 48px;
+    padding-bottom: 48px;
+
+    @media (min-width: $screen-md) {
+      padding-top: 56px;
+      padding-bottom: 56px;
+    }
+
+    @media (min-width: $screen-xl) {
+      padding-top: 64px;
+      padding-bottom: 64px;
+    }
+
+    &--list {
+      padding-top: 40px;
+      padding-bottom: 0;
+    }
+  }
+
+  &__inner {
+
+    @media (min-width: $screen-md) {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    @media (min-width: $screen-xl) {
+      justify-content: initial;
+    }
+  }
+
+  &__img {
+    max-width: 328px; // h380
+
+    @media (max-width: $screen-md - 1) {
+      margin-bottom: 24px;
+    }
+
+    @media (min-width: $screen-md) {
+      flex: 0 0 224px;
+      width: 224px;
+      margin-right: 24px;
+    }
+
+    @media (min-width: $screen-xl) {
+      flex: 0 0 282px;
+      width: 282px;
+      margin-right: 126px;
+    }
+
+    img {
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+
+  &__text {
+
+    @media (min-width: $screen-md) {
+      flex: 1 1 auto;
+    }
+
+    @media (min-width: $screen-xl) {
+      flex: 0 0 690px;
+      //width: 690px;
+    }
+  }
+
+  &__intro {
+    margin-bottom: 24px;
+    font-size: $font-size-sm;
+  }
+}

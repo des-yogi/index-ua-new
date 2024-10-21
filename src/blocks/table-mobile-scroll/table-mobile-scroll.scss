@@ -1,0 +1,55 @@
+$line-height:                 1.375em !default;
+
+$border-color:                hsl(0, 0%, 60%) !default;
+
+.table-mobile-scroll {
+
+  $block-name:                &; // #{$block-name}__element
+
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  margin-top: 24px !important;
+  margin-bottom: 24px !important;
+  border: 1px solid $divider-color;
+
+  table {
+    width: 100%;
+    margin: 0;
+    //margin-bottom: 10px;
+    border: 0 !important; // stylelint-disable-line  declaration-no-important
+
+    td,
+    th {
+      //white-space: nowrap;
+      word-break: normal;
+    }
+  }
+
+  tbody,
+  thead,
+  tfoot {
+
+    &:last-child {
+
+      tr:last-child {
+
+        // stylelint-disable  max-nesting-depth, selector-max-compound-selectors
+        td,
+        th {
+          border-bottom: 0;
+          white-space: nowrap;
+          word-break: normal;
+        }
+        // stylelint-enable
+      }
+    }
+  }
+
+  caption {
+    padding: 0.4em;
+    border-bottom: 1px solid $divider-color;
+    //caption-side: top;
+    //text-align: left;
+  }
+}

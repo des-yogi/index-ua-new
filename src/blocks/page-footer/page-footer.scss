@@ -1,0 +1,147 @@
+.page-footer {
+  padding-top: 40px;
+  padding-bottom: 16px;
+  background-color: $block-bg;
+
+  /* @media (min-width: $screen-xl) {
+    padding-top: 48px;
+  } */
+
+  $block-name:                &; // #{$block-name}__element
+
+  .copyrights {
+    padding-top: 16px;
+    margin-top: 16px;
+    border-top: 2px solid $divider-color;
+
+    @media (min-width: $screen-md) {
+      margin-top: 24px;
+    }
+
+    @media (min-width: $screen-xl) {
+      margin-top: 40px;
+    }
+  }
+
+  &__row {
+    gap: 20px 0;
+  }
+
+  &__logo-col {
+    @include col(xs, 12);
+    @include col(md, 6);
+    @include col(xl, 4);
+   }
+
+  &__menu-col {
+    @include col(xs, 12);
+    @include col(md, 6);
+    @include col(xl, 4);
+  }
+
+  &__info-col {
+    @include col(xs, 12);
+    @include col(xl, 4);
+  }
+
+  &__menu,
+  &__info {
+    padding-top: 20px;
+    border-top: 2px solid $divider-color;
+  }
+
+  &__menu {
+
+    @media (min-width: $screen-md) {
+      padding-top: 0;
+      border: none;
+    }
+  }
+
+  &__info {
+
+    @media (min-width: $screen-xl) {
+      padding-top: 0;
+      border: none;
+    }
+  }
+
+  &__text {
+    margin: 0 0 24px;
+    font-size: $font-size-sm;
+  }
+
+  &__menu-list {
+    gap: 16px 0;
+
+    // @media (min-width: $screen-md) {
+    //   gap: 12px 0;
+    // }
+  }
+
+  &__menu-item {
+    @include col(xs, 12);
+    @include col(sm, 6);
+  }
+
+  &__menu-link {
+    font-size: $font-size-md;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+
+    &:hover,
+    &:focus {
+      text-decoration: none;
+    }
+
+    &--email {
+      position: relative;
+      padding-left: 44px;
+      font-size: $font-size;
+
+      &::before {
+        display: block;
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        width: 32px;
+        height: 32px;
+        background-image: svg-load('../blocks/sprite-svg/svg/email.svg', fill=$text-color);
+        background-color: transparent;
+        background-position: center;
+        background-size: 30px;
+        background-repeat: no-repeat;
+      }
+    }
+  }
+
+  &__email {
+    margin-top: 24px;
+
+    @media (min-width: $screen-md) {
+      margin-top: 9px;
+    }
+  }
+
+  &__partners {
+    display: flex;
+    //flex-wrap: wrap;
+    gap: 0 32px;
+  }
+
+  &__partner {
+    display: inline-flex;
+    height: 30px;
+
+    @media (min-width: $screen-md) {
+      height: 44px;
+    }
+
+    img {
+      width: auto;
+    }
+  }
+}

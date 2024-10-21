@@ -1,0 +1,46 @@
+.score-interpretation {
+
+  $block-name:                &; // #{$block-name}__element
+
+  &__col {
+    @include col(xs, 12);
+    //@include col(md, 9);
+    @include col-offset(xl, 1);
+    @include col(xl, 5);
+    //@include col(xxl, 6);
+  }
+
+  // &__header {
+  //   margin-bottom: 24px;
+
+  //   @media (min-width: $screen-md) {
+  //     max-width: calc(75% - 16px);
+  //   }
+
+  //   @media (min-width: $screen-xl) {
+  //     max-width: 100%;
+  //   }
+  // }
+
+  &__title {
+    margin-top: 0;
+  }
+
+  &__figure {
+    padding-bottom: 16px;
+    margin: 24px 0 0;
+    overflow-x: auto;
+
+    @media (min-width: $screen-md) {
+      max-width: calc(75% - 16px);
+    }
+
+    @media (min-width: $screen-xl) {
+      max-width: 100%;
+    }
+
+    img {
+      min-width: 460px;
+    }
+  }
+}

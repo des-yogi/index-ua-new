@@ -1,0 +1,76 @@
+.analitics-btn {
+
+  $block-name:                &; // #{$block-name}__element
+
+  flex: 0 0;
+
+  &__controls {
+    margin-bottom: 16px;
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+  }
+
+  &__panel-title {
+    margin-bottom: 8px;
+    font-size: $font-size;
+    font-weight: 400;
+  }
+
+  &__label {
+    flex: 0 0 auto;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 56px;
+    padding: 0 12px;
+    font-size: $font-size-lg;
+    line-height: inherit;
+    white-space: nowrap;
+    color: $title-color;
+    background-color: $divider-color;
+    border-radius: $border-radius;
+    border: 1px solid $divider-color;
+    user-select: none;
+    transition: all $transition-time;
+
+    &:hover {
+      color: $title-color;
+      background-color: $divider-color;
+      border-color: $link-color;
+      //box-shadow: 0 0 0 2px rgba($link-color, $opacity);
+    }
+  }
+
+  &__flag {
+    display: block;
+    width: 32px;
+    height: 24px;
+    margin-right: 8px;
+    border-radius: $border-radius;
+    overflow: hidden;
+  }
+
+  &__text {
+    line-height: 1;
+  }
+
+  &__input:focus + #{$block-name}__label {
+    color: $title-color;
+    box-shadow: 0 0 0 2px rgba($link-color, $opacity);
+  }
+
+  &__input:checked + #{$block-name}__label {
+    color: $link-color;
+    border-color: $link-color;
+    background-color: $white;
+  }
+
+  &__input:checked:focus + #{$block-name}__label {
+    box-shadow: 0 0 0 2px rgba($link-color, $opacity);
+  }
+}

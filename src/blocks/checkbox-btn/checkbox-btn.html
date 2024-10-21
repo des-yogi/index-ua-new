@@ -1,0 +1,13 @@
+<!--DEV
+@ @include('blocks/checkbox-btn/checkbox-btn.html', {
+  "type": "checkbox",
+  "prefix": "",
+  "label": "",
+  "checked": ""
+})
+-->
+
+<div class="checkbox-btn">
+  <input class="checkbox-btn__input  visually-hidden" id="@@prefix-@@label" type="@@type" name="@@prefix" value="" @@checked>
+  <label class="checkbox-btn__label  btn" for="@@prefix-@@label">@@label</label>
+</div>

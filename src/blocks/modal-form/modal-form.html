@@ -1,0 +1,81 @@
+<!--DEV
+@ @include('blocks/modal-form/modal-form.html')
+-->
+
+<!-- Modal -->
+<div class="modal-form  modal fade" id="formModal" tabindex="-1" aria-labelledby="formModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title  modal-form__title" id="formModalLabel">Get indicator tables</h4>
+        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+          <span class="visually-hidden">Закрыть модальное окно</span>
+          <svg width="26" height="26"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-svg.svg#close"></use></svg>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form id="getTable" action="" method="post">
+
+          <label class="field-text">
+            <span class="field-text__input-wrap">
+              <input class="field-text__input  field-text__input--required" type="text" name="name" value="" placeholder="First name">
+              <span class="field-text__help-text  error_name">Error</span>
+            </span>
+          </label>
+
+          <label class="field-text">
+            <span class="field-text__input-wrap">
+              <input class="field-text__input  field-text__input--required" type="text" name="surname" value="" placeholder="Surname">
+              <span class="field-text__help-text  error_surname"></span>
+            </span>
+          </label>
+
+          <label class="field-text">
+            <span class="field-text__input-wrap">
+              <input class="field-text__input  field-text__input--required" type="text" name="country" value="" placeholder="Country">
+              <span class="field-text__help-text  error_country"></span>
+            </span>
+          </label>
+
+          <label class="field-text">
+            <span class="field-text__input-wrap">
+              <input class="field-text__input" type="text" name="organiz" value="" placeholder="Organization">
+              <span class="field-text__help-text  error_organiz"></span>
+            </span>
+          </label>
+
+          <label class="field-text">
+            <span class="field-text__input-wrap">
+              <input class="field-text__input  field-text__input--required" type="email" name="email" value="" placeholder="E-mail">
+              <span class="field-text__help-text  error_email"></span>
+            </span>
+          </label>
+
+          <div class="field-checkbox__wrapper" style="">
+            <div class="field-checkbox">
+              <label class="field-checkbox__name">
+                <input class="field-checkbox__input" type="checkbox" name="year2020" value="">
+                <span class="field-checkbox__name-text">Table for 2020</span>
+              </label>
+            </div>
+            <div class="field-checkbox">
+              <label class="field-checkbox__name">
+                <input class="field-checkbox__input" type="checkbox" name="year2021" value="">
+                <span class="field-checkbox__name-text">Table for 2021</span>
+              </label>
+            </div>
+            <div class="field-checkbox">
+              <label class="field-checkbox__name">
+                <input class="field-checkbox__input" type="checkbox" name="year2022" value="">
+                <span class="field-checkbox__name-text">Table for 2022</span>
+              </label>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="submit" class="btn"><span>Send</span></button>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,34 @@
+table,
+.table {
+
+  $block-name:                &; // #{$block-name}__element
+
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid $divider-color;
+  margin: 16px 0;
+
+  caption {
+    padding-bottom: 0.4em;
+    text-align: initial;
+    caption-side: top;
+    font-size: $font-size-sm;
+    line-height: 1em;
+    color: $text-muted;
+  }
+
+  td,
+  th {
+    padding: $field-padding-vertical $field-padding-horizontal;
+    vertical-align: top;
+    border-bottom: 1px solid $divider-color;
+
+    &:not(:first-child) {
+      border-left: 1px solid $divider-color;
+    }
+  }
+
+  th {
+    text-align: left;
+  }
+}
