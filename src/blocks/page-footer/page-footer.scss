@@ -128,7 +128,7 @@
 
   &__partners {
     display: flex;
-    flex-wrap: wrap;
+    //flex-wrap: wrap;
     gap: 0 24px;
   }
 
@@ -145,18 +145,18 @@
     }
 
     &--usaid {
-      flex: 0 0 100px;
+      flex: 0 1 100px;
 
       @media (min-width: $screen-md) {
-        flex: 0 0 147px;
+        flex: 0 1 147px;
       }
     }
 
     &--dixi {
-      flex: 0 0 140px;
+      flex: 0 1 140px;
 
       @media (min-width: $screen-md) {
-        flex: 0 0 205px;
+        flex: 0 1 205px;
       }
     }
   }
