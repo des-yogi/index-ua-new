@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html class="no-js  page" lang="en" prefix="og: https://ogp.me/ns#">
+
+<head>
+  <meta charset="utf-8">
+  <title>Методологія</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="format-detection" content="telephone=no">
+
+  <meta name="description" content="sample text">
+  <meta name="keywords" content="sample text">
+  <meta name="robots" content="noindex,nofollow">
+  <!-- OpenGraph microdata
+  <meta property="og:url"      content="https://www.your-domain.com/your-page.html" />
+  <meta property="og:type"          content="website" />
+  <meta property="og:title"         content="Your Website Title" />
+  <meta property="og:description"   content="Your description" />
+  <meta property="og:image"         content="https://www.your-domain.com/path/image.jpg" />
+  <meta property="og:locale"        content="uk_UA" />
+  -->
+  <!-- <link rel="canonical" href="https://www.your-domain.com/"> -->
+  <!-- <link rel="preload" href="assets/fonts/roboto-v18-cyrillic_latin-700.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/roboto-v18-cyrillic_latin-500.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/noto-sans-v7-cyrillic_latin-regular.woff2" as="font" type="font/woff2" crossorigin> -->
+
+  <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;800&display=swap" rel="stylesheet"> -->
+
+  <link href="css/style.min.css" rel="stylesheet" media="screen">
+
+</head>
+
+<body>
+<noscript>У вас отключен JavaScript. Приносим наши извинения, но это делает затруднительным использование данного сайта.</noscript>
+
+  <div class="page__inner">
+
+    <div class="page__content">
+      <div class="page-header__wrapper">
+        <header class="page-header" id="header">
+
+          <div class="container  page-header__inner">
+
+            <div class="container  page-header__logotypes">
+
+                <a href="index.html" class="logo" title="Індекс прозорості енергетики України">
+                  <img src="img/index-ua-logo.svg" alt="Індекс прозорості енергетики України logo" width="284" height="64">
+                </a>
+
+                <a href="#" class="page-header__dixi-logo" title="DixiGroup">
+                  <img src="img/dixigroup-logo.svg" width="181" height="40" alt="Dixigroup">
+                </a>
+
+            </div>
+
+            <div class="container  page-header__service">
+              <button class="btn  btn--stroke  page-header__table-btn" data-bs-toggle="modal" data-bs-target="#formModal">
+                <svg width="24" height="24"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-svg.svg#download-table"></use></svg>
+                <span>Таблиці індикаторів</span>
+              </button>
+
+              <a href="#" class="btn  btn--stroke  lang-switcher">
+                <span>Eng</span>
+              </a>
+
+              <button id="burger"
+                      class="btn  btn--stroke  burger"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseMenu"
+                      aria-expanded="false"
+                      aria-controls="collapseMenu"
+                      aria-label="Переключатель моб. меню"
+              >
+                <span></span>
+              </button>
+
+            </div>
+
+          </div>
+
+
+          <div id="collapseMenu" class="container  page-header__nav-wrapper  collapse">
+            <button class="btn  btn--stroke  page-header__table-btn" data-bs-toggle="modal" data-bs-target="#formModal">
+              <svg width="24" height="24"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-svg.svg#download-table"></use></svg>
+              <span>Таблиці індикаторів</span>
+            </button>
+
+            <nav class="main-nav">
+              <ul class="main-nav__list">
+                <li class="main-nav__item  active">
+                  <a href="index.html" class="main-nav__link">
+                    Головна
+                  </a>
+                </li>
+                <li class="main-nav__item">
+                  <a href="about.html" class="main-nav__link">
+                    Про Індекс
+                  </a>
+                </li>
+                <li class="main-nav__item">
+                  <a href="analytics.html" class="main-nav__link">
+                    Аналітика
+                  </a>
+                </li>
+                <li class="main-nav__item">
+                  <a href="indicators.html" class="main-nav__link">
+                    Індикатор
+                  </a>
+                </li>
+                <li class="main-nav__item">
+                  <a href="methodology.html" class="main-nav__link">
+                    Методологія
+                  </a>
+                </li>
+                <li class="main-nav__item">
+                  <a href="reports.html" class="main-nav__link">
+                    Звіти
+                  </a>
+                </li>
+                <li class="main-nav__item">
+                  <a href="restoring.html" class="main-nav__link">
+                    Відновлення прозорості
+                  </a>
+                </li>
+              </ul>
+            </nav>
+
+          </div>
+        </header>
+      </div>
+
+
+      <main class="main">
+
+        <article class="article  methodology">
+
+          <div class="container  intro-block">
+            <div class="row">
+              <div class="intro-block__col  intro-block__col--text">
+                <h1 class="intro-block__title">Методологія</h1>
+                <div class="intro-block__text">
+                  <p>Методологія визначення Індексу прозорості енергетики базується на статистичному методі багатовимірної середньої, який використовують, щоб оцінити складні об’єкти, процеси та явища. Вимірами Індексу є конкретні показники оцінювання прозорості (індикатори), їхні сукупності (категорії і сектори (ринки)) й мірила прозорості (критерії).</p>
+                </div>
+                <!-- <div class="intro-block__link-wrapper">
+                  <a href="#" class="btn"><span>Детальніше</span></a>
+                </div> -->
+              </div>
+
+              <div class="intro-block__col">
+                <div class="embed-responsive embed-responsive--1-1  intro-block__img">
+                  <picture>
+                    <source srcset="img/hero-1.webp 585w,
+                                    img/hero-1.webp 700w,
+                                    img/hero-1.webp 800w,
+                                    img/hero-1.webp 900w"
+                            sizes="(max-width: 620px) 95vw, 585px"
+                            type="image/webp">
+
+                    <source srcset="img/hero-1.jpg 585w,
+                                    img/hero-1.jpg 700w,
+                                    img/hero-1.jpg 800w,
+                                    img/hero-1.jpg 900w"
+                            sizes="(max-width: 620px) 95vw, 585px">
+
+                    <img src="img/hero-1.jpg" alt="alt text" width="585" height="585">
+                  </picture>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="container  methodology__content">
+
+            <div class="row">
+              <div class="article__inner-col">
+
+                <section class="methodology__block">
+                  <h2>Індикатори та категорії</h2>
+
+                  <p>Індикатор — конкретний показник, вибраний для оцінювання прозорості об’єкта (наприклад, енергетичних компаній, органів влади), процесу (наприклад, ціноутворення, регулювання, торгівлі тощо), явища (наприклад, ринку, конкуренції тощо). В межах Індексу прозорості енргетики оцінюється <strong>понад 200 індикаторів</strong>, необхідні й достатні ознаки прозорості яких (обсяг інформації, її формат, періодичність оновлення тощо) наведені в українських і/або міжнародних нормативно-правових актах і/або відповідно до кращих світових практик розкриття інформації.</p>
+                  <p>В межах дослідження за Індексом охоплено <strong>п’ять секторів (ринків)</strong>: природний газ; електрична енергія; нафта й рідке паливо; енергетичне вугілля; теплова енергія.</p>
+                  <p><strong>Категорія</strong> — сукупність індикаторів, що характеризує складові зовнішнього і внутрішнього середовища. Об’єднання індикаторів у категорії дозволяє різним групам спеціальних інтересів отримати інформацію про прозорість у різних точках ланцюга доданої вартості. Шляхом аналізу правил і практик розкриття інформації, зворотного зв’язку експертів, що були залучені до консультацій при розробці Індексу, виокремлено вісім категорій:</p>
+
+                  <dl>
+                    <div>
+                      <dt>«Баланси»</dt>
+                      <dd>Визначає прозорість річної й місячної енергетичної статистики;</dd>
+                    </div>
+                    <div>
+                      <dt>«Природні монополії»</dt>
+                      <dd>Визначає прозорість діяльності операторів систем передачі (транспортування) й розподілу;</dd>
+                    </div>
+                    <div>
+                      <dt>«Постачання»</dt>
+                      <dd>Визначає прозорість правил і рівня конкуренції на товарних ринках; цін і ціноутворення;</dd>
+                    </div>
+                    <div>
+                      <dt>«Надійність і безпека»</dt>
+                      <dd>Визначає прозорість запасів (резервів); правил, звітності про надійність і безпеку енергопостачання;</dd>
+                    </div>
+                    <div>
+                      <dt>«Споживання»</dt>
+                      <dd>Визначає прозорість стандартів обслуговування та обліку; інформації для споживачів про ціни і тарифи, субсидії та іншу допомогу, програми енергозбереження; комерційні пропозиції постачальників та інструменти їх порівняння;</dd>
+                    </div>
+                    <div>
+                      <dt>«Звітність»</dt>
+                      <dd>Визначає прозорість фінансових, аудиторських звітів; звітів про управління; розкриття нефінансової інформації; платежів на користь держави; інформації про кінцевих бенефіціарів, про корпоративне управління;</dd>
+                    </div>
+                    <div>
+                      <dt>«Політика»</dt>
+                      <dd>Визначає прозорість виконання стратегічних і програмних документів енергетичної політики й забезпечення сталого розвитку; політики підвищення енергоефективності, захисту довкілля, протидії змінам клімату, розвитку відновлюваних джерел енергії;</dd>
+                    </div>
+                    <div>
+                      <dt>«Органи влади»</dt>
+                      <dd>Визначає прозорість витрачання бюджетних коштів; розроблення, ухвалення й виконання владних рішень, а також моніторинг їхньої результативності; формування керівних органів</dd>
+                    </div>
+                  </dl>
+
+                  <p>Для зручності оцінювання й аналізу індикатори кожної категорії об’єднані в підкатегорії і групи.</p>
+
+                  <hr>
+
+                  <h2>Критерії прозорості</h2>
+                  <p>Критерій прозорості – мірило для оцінки ознак прозорості об’єкта, процесу або явища. Кожний з індикаторів був оцінений за шістьма критеріями прозорості:</p>
+
+                  <dl>
+                    <div>
+                      <dt>«Наявність»</dt>
+                      <dd>Існування інформації у відкритих джерелах;</dd>
+                    </div>
+                    <div>
+                      <dt>«Доступність»</dt>
+                      <dd>Мірило вільного отримання інформації;</dd>
+                    </div>
+                    <div>
+                      <dt>«Актуальність»</dt>
+                      <dd>Наявність інформації за останній звітний період;</dd>
+                    </div>
+                    <div>
+                      <dt>«Регулярність»</dt>
+                      <dd>Ступінь дотримання встановлених вимог до періодичності оновлення і зберігання інформації;</dd>
+                    </div>
+                    <div>
+                      <dt>«Використовність»</dt>
+                      <dd>Зручність і простота користування розкритою інформацією; її практичність (usability);</dd>
+                    </div>
+                    <div>
+                      <dt>«Вичерпність»</dt>
+                      <dd>Наявність у встановлений термін вичерпної інформації, що має оприлюднюватись у відповідності до вимог українських і/ або міжнародних нормативно-правових актів і/ або кращих світових практик розкриття інформації.</dd>
+                    </div>
+                  </dl>
+                </section>
+
+              </div>
+            </div>
+
+            <div class="methodology__block  methodology__block--fullsize" style="padding-bottom: 0;">
+
+              <div class="table-mobile-scroll">
+                <table style="margin: 0;" class="criteria-table">
+                  <thead>
+                    <tr>
+                      <th>Критерій прозорості</th>
+                      <th>Бал</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Наявність (C<sub>av</sub>)</td>
+                      <td>
+                        <ul>
+                          <li>0 – інформація відсутня</li>
+                          <li>1 – інформація наявна</li>
+                        </ul>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Доступність (С<sub>ac</sub>)</td>
+                      <td>
+                        <ul>
+                          <li>0 – наявну інформацію неможливо отримати, окрім як на платній основі або за запитом</li>
+                          <li>0.5 – наявну інформацію можна отримати лише шляхом: і) надання персональних даних сторони, що робить запит (наприклад, через «Дію»); іі) пошуку інформації на сторонніх ресурсах (які відрізняються від нормативно встановлених), де вона перебуває у вільному доступі; ііі) здійснення додаткового пошуку із використанням внутрішніх пошукових систем веб-сайтів органів влади чи компаній, або зовнішніх пошукових систем в мережі Інтернет</li>
+                          <li>1 – інформація наявна у вільному доступі</li>
+                        </ul>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Актуальність (С<sub>rl</sub>)</td>
+                      <td>
+                        <ul>
+                          <li>0 – інформація за останній звітний період відсутня</li>
+                          <li>1 – інформація за останній звітний період наявна</li>
+                        </ul>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Регулярність (С<sub>fr</sub>)</td>
+                      <td>
+                        <ul>
+                          <li>0 – інформація не оновлюється і недоступна за попередні періоди</li>
+                          <li>0.5 – інформація оновлюється, але недоступна за окремі попередні періоди</li>
+                          <li>1 – інформація оновлюється з дотриманням встановлених вимог і доступна за попередні періоди</li>
+                        </ul>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Використовність (С<sub>us</sub>)</td>
+                      <td>
+                        <ul>
+                          <li>0 – інформація наявна не в машиночитному форматі (jpg, jpeg, png, pcx, tiff, pdf (що містить сканований уміст) тощо)</li>
+                          <li>0.5 – наявну інформацію можна скопіювати чи обробити (числова: docx, pdf, html, xlsx (неструктуровані дані))</li>
+                          <li>1 – інформація наявна в машиночитному форматі (числова: xlsx (структуровані дані), csv, xml, json; текстова: docx, pdf (несканований уміст))</li>
+                        </ul>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Вичерпність (С<sub>in</sub>)</td>
+                      <td>
+                        <ul>
+                          <li>0 – у встановлений термін відсутня будь-яка інформація, що має бути розкритою</li>
+                          <li>0.5 – у встановлений термін інформація, що має бути розкритою, наявна не в повному обсязі</li>
+                          <li>1 – у встановлений термін наявна вся інформація, що має бути розкритою</li>
+                        </ul>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+            </div>
+
+            <div class="methodology__block" style="padding-top: 24px;">
+              <p>Критерії використовності та вичерпності оцінюються за останньою наявною інформацією по індикатору. Також в інформації змішаного типу (комбінація текстової та числової інформації) критерій використовності оцінюється як для текстової інформації. Сукупна оцінка кожного з індикаторів прозорості визначається за формулою:</p>
+
+              <p style="font-size:20px; font-weight:600;">
+                Т<sub>i</sub> = C<sub>av</sub> × (С<sub>ac</sub> + С<sub>rl</sub> + С<sub>fr</sub> + С<sub>us</sub>) × С<sub>in</sub>
+              </p>
+
+              <p>де С<sub>аv</sub>, С<sub>ac</sub>, С<sub>rl</sub>, С<sub>fr</sub>, С<sub>us</sub>, С<sub>in</sub> – оцінки за критеріями наявності, доступності, актуальності, регулярності, використовності й вичерпності, відповідно.</p>
+              <p>Якщо інформацію було неможливо отримати, окрім як на платній основі або за запитом (С<sub>ac</sub> = 0), вважали, що вона відсутня (С<sub>аv</sub> = 0). Для всіх якісних індикаторів, якщо інформація була наявна (С<sub>аv</sub> = 1) і доступна (С<sub>ac</sub> = 1), вважали, що С<sub>in</sub> = С<sub>rl</sub> = С<sub>fr</sub> = 1.</p>
+              <p>Враховуючи велику розмірність масиву індикаторів прозорості, їх вважали рівновагомими. Тому для побудови субіндексів за окремими категоріями й секторами (ринками) використовували середні арифметичні оцінки відповідних сукупностей.</p>
+
+            </div>
+
+            <hr>
+
+            <section class="methodology__block  methodology__block--fullsize" style="padding: 0;">
+              <div style="max-width: 792px;">
+                <h3>Узагальнення оцінок</h3>
+                <p>Для розрахунку інтегральної оцінки прозорості, методом експертного рейтингування визначені вагові коефіцієнти категорій Індексу:</p>
+              </div>
+
+              <table class="criteria-table">
+                <thead>
+                  <tr>
+                    <th>Категорія</th>
+                    <th>Ваги</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Баланси</td>
+                    <td>0.05</td>
+                  </tr>
+                  <tr>
+                    <td>Природні монополії</td>
+                    <td>0.20</td>
+                  </tr>
+                  <tr>
+                    <td>Постачання</td>
+                    <td>0.20</td>
+                  </tr>
+                  <tr>
+                    <td>Надійність і безпека</td>
+                    <td>0.05</td>
+                  </tr>
+                  <tr>
+                    <td>Споживання</td>
+                    <td>0.20</td>
+                  </tr>
+                  <tr>
+                    <td>Звітність</td>
+                    <td>0.10</td>
+                  </tr>
+                  <tr>
+                    <td>Політика</td>
+                    <td>0.10</td>
+                  </tr>
+                  <tr>
+                    <td>Органи влади</td>
+                    <td>0.10</td>
+                  </tr>
+                </tbody>
+              </table>
+
+            </section>
+
+            <hr>
+
+            <section class="methodology__block" style="padding: 0;">
+              <h3>Інтерпретація оцінок</h3>
+              <p>Усі розраховані оцінки прозорості (за категоріями, підкатегоріями, ринками, органами влади) для зручності переведені в універсальну 100-бальну шкалу. Вони округлені до цілого значення і мають таке трактування:</p>
+
+              <div class="methodology__svg-wrapper" style="margin: 24px 0;">
+
+                <img src="img/interpretation-estimates.svg" alt="Інтерпретація оцінок" width="465" height="506" loading="lazy">
+
+              </div>
+            </section>
+
+            <hr>
+
+            <section class="methodology__block" style="padding: 0;">
+              <h3>Обмеження</h3>
+              <p>За допомогою Індексу не можна оцінити прозорість:</p>
+
+              <ul>
+                <li>енергетики в реальному часі, оскільки його формування потребує оброблення великих масивів інформації за період, що зазвичай передує тому, в якому здійснюється оцінювання;</li>
+                <li>усіх учасників товарних ринків та/чи органів влади, тому за окремими індикаторами категорій «Природні монополії», «Постачання», «Споживання», «Звітність», «Політика», «Органи влади» оцінювання побудоване на базі репрезентативних вибірок;</li>
+                <li>секторів енергетики, де товарні ринки ще формуються (енергетичне вугілля, теплова енергія), тому розраховані для них субіндекси є довідковими.</li>
+              </ul>
+            </section>
+
+            <hr>
+
+            <section class="methodology__block"  style="padding: 0;">
+              <h3>Опис вибірок</h3>
+
+              <p>Категорія «Природні монополії»:</p>
+              <ul>
+                <li>оператори систем передачі і транспортування (TSO) – юридичні особи, відповідальні за експлуатацію, диспетчеризацію, забезпечення технічного обслуговування, розвиток цих систем, а також за забезпечення їхньої довгострокової спроможності задовольняти обґрунтований попит: на передачу електричної енергії, на транспортування й зберігання природного газу, нафти, дизельного палива;</li>
+                <li>оператори систем розподілу (DSO) – юридичні особи, що працюють у п’яти найбільших містах України, й відповідають за безпечну, надійну та ефективну експлуатацію, технічне обслуговування та розвиток систем розподілу і забезпечення довгострокової спроможності систем розподілу: природного газу, електричної енергії, теплової енергії.</li>
+              </ul>
+
+              <p>Категорія «Постачання»:</p>
+              <ul>
+                <li>для індикаторів біржових цін – товарні біржі, які мають найбільшу ліквідність на відповідних оптових енергетичних ринках.</li>
+              </ul>
+
+              <p>Категорія «Споживання»:</p>
+              <ul>
+                <li>для природного газу – вибірка складається тільки з одного постачальника – ГК «Нафтогаз України» у зв’язку з передачею їй як постачальнику «останньої надії» у травні 2022 року левової частки побутових споживачів (близько 98%)22;</li>
+                <li>для електричної енергії – постачальники універсальних послуг у п’яти найбільших містах України;</li>
+                <li>для нафтопродуктів – оператори роздрібної торгівлі нафтопродуктами – юридичні особи, які управляють п’ятьма найбільшими за обсягами реалізації в 2022 році мережами автозаправних станцій.</li>
+              </ul>
+
+              <p>Категорія «Звітність»:</p>
+              <ul>
+                <li>підкатегорія «Фінансова та управлінська звітність», група «Інформація про сплату податків (у розрізі видів податків та суб’єктів)» – 20 енергетичних компаній, які у 2020 році увійшли до останнього актуального рейтингу платників податків23 і, згідно з абзацом 21 статті 1 Закону «Про бухгалтерський облік та фінансову звітність в Україні», є підприємствами, що становлять суспільний інтерес;</li>
+                <li>група «Спеціальна звітність підприємств у видобувних галузях» – 12 приватних та державних компаній із найбільшим у 2021 році видобутком природного газу, нафти з газовим конденсатом та енергетичного вугілля24;</li>
+                <li>підкатегорія «Бенефіціари та корпоративне управління» – 14 найбільших енергетичних компаній, відібраних з основної вибірки, що є акціонерними товариствами, і цінні папери яких можуть бути допущені до торгів на біржі.</li>
+              </ul>
+
+              <p>Категорія «Політика»:</p>
+              <ul>
+                <li>для індикаторів, пов’язаних з Планами дій зі сталого енергетичного розвитку (та клімату) (ПДСЕР(К) – 5 найбільших міст України: Київ, Харків, Львів, Дніпро, Одеса.</li>
+              </ul>
+
+              <p>Категорія «Органи влади»:</p>
+              <ul>
+                <li>групи «Бюджетні видатки», «Процеси ухвалення та виконання рішень», «Прозорість формування керівних органів» – Міністерство енергетики України, Національна комісія, що здійснює державне регулювання у сферах енергетики та комунальних послуг, Антимонопольний комітет України;</li>
+                <li>група «Державна допомога» – оцінювання індикаторів здійснювалося за інформацією про надання державної допомоги Антимонопольного комітету України;</li>
+                <li>група «Квазіфіскальні операції» – за інформацією про квазіфіскальні ризики, пов’язані із енергетичними компаніями, Міністерства фінансів України.</li>
+              </ul>
+            </section>
+
+          </div>
+
+        </article>
+
+      </main>
+
+    </div>
+
+    <div class="page__footer-wrapper">
+
+      <footer class="container  page-footer">
+        <div class="row  page-footer__row">
+
+          <div class="page-footer__logo-col">
+            <a href="index.html" class="logo" title="Індекс прозорості енергетики України">
+              <img src="img/index-ua-logo.svg" alt="Індекс прозорості енергетики України logo" width="284" height="64">
+            </a>
+            <div class="page-footer__email">
+              <a href="mailto:author@dixigroup.org" class="page-footer__menu-link  page-footer__menu-link--email">author@dixigroup.org</a>
+            </div>
+          </div>
+
+          <div class="page-footer__menu-col">
+            <nav class="page-footer__menu">
+              <ul class="row  list-nostyled  page-footer__menu-list">
+                <li class="page-footer__menu-item">
+                  <a href="#" class="page-footer__menu-link">Головна</a>
+                </li>
+                <li class="page-footer__menu-item">
+                  <a href="#" class="page-footer__menu-link">Про нас</a>
+                </li>
+                <li class="page-footer__menu-item">
+                  <a href="#" class="page-footer__menu-link">Аналітика</a>
+                </li>
+                <li class="page-footer__menu-item">
+                  <a href="#" class="page-footer__menu-link">Індикатори</a>
+                </li>
+                <li class="page-footer__menu-item">
+                  <a href="#" class="page-footer__menu-link">Методологія</a>
+                </li>
+                <li class="page-footer__menu-item">
+                  <a href="#" class="page-footer__menu-link">Звіти</a>
+                </li>
+                <li class="page-footer__menu-item">
+                  <a href="#" class="page-footer__menu-link">Відновлення прозорості</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+
+          <div class="page-footer__info-col">
+            <div class="page-footer__info">
+              <p class="page-footer__text">
+                Робота веб-сайту стала можливою завдяки підтримці американського народу через Агентство США з міжнародного розвитку (USAID). За зміст інформації несе виключну відповідальність DiXi Group, він не обов'язково відображає погляди USAID або Уряду Сполучених Штатів.
+              </p>
+              <div class="page-footer__partners">
+                <a href="#" class="page-footer__partner" title="USAID">
+                  <img src="img/usaid-logo.svg" width="147" height="44" alt="USAID logo" loading="lazy">
+                </a>
+                <a href="#" class="page-footer__partner" title="DIXIGROUP">
+                  <img src="img/dixigroup-logo.svg" alt="DIXIGROUP logo" width="205" height="44" loading="lazy">
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <section class="copyrights">
+          <h2 class="visually-hidden">Copyrights</h2>
+          <div class="copyrights__inner">
+            <div class="copyrights__owner">
+              <span>© 2023 Index. All rights reserved.</span>
+            </div>
+            <div class="copyrights__dev">
+              <a href="https://it-doors.com.ua" target="_blank" rel="nofollow noopener" title="IT-Doors Outsourcing, developer">
+                <img src="img/it-doors-logo.svg" width="59" height="22" alt="IT-Doors logo" loading="lazy">
+              </a>
+            </div>
+          </div>
+        </section>
+
+      </footer>
+
+    </div>
+
+  </div>
+
+  <!-- Modal -->
+  <div class="modal-form  modal fade" id="formModal" tabindex="-1" aria-labelledby="formModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title  modal-form__title" id="formModalLabel">Отримати таблиці показників</h4>
+          <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+            <span class="visually-hidden">Закрыть модальное окно</span>
+            <svg width="26" height="26"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-svg.svg#close"></use></svg>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form id="getTable" action="" method="post">
+
+            <label class="field-text">
+              <span class="field-text__input-wrap">
+                <input class="field-text__input  field-text__input--required" type="text" name="name" value="" placeholder="First name">
+                <span class="field-text__help-text  error_name">Error</span>
+              </span>
+            </label>
+
+            <label class="field-text">
+              <span class="field-text__input-wrap">
+                <input class="field-text__input  field-text__input--required" type="text" name="surname" value="" placeholder="Surname">
+                <span class="field-text__help-text  error_surname"></span>
+              </span>
+            </label>
+
+            <label class="field-text">
+              <span class="field-text__input-wrap">
+                <input class="field-text__input  field-text__input--required" type="text" name="country" value="" placeholder="Country">
+                <span class="field-text__help-text  error_country"></span>
+              </span>
+            </label>
+
+            <label class="field-text">
+              <span class="field-text__input-wrap">
+                <input class="field-text__input" type="text" name="organiz" value="" placeholder="Organization">
+                <span class="field-text__help-text  error_organiz"></span>
+              </span>
+            </label>
+
+            <label class="field-text">
+              <span class="field-text__input-wrap">
+                <input class="field-text__input  field-text__input--required" type="email" name="email" value="" placeholder="E-mail">
+                <span class="field-text__help-text  error_email"></span>
+              </span>
+            </label>
+
+            <div class="field-checkbox__wrapper">
+              <div class="field-checkbox">
+                <label class="field-checkbox__name">
+                  <input class="field-checkbox__input" type="checkbox" name="year2020" value="">
+                  <span class="field-checkbox__name-text">Table for 2020</span>
+                </label>
+              </div>
+              <div class="field-checkbox">
+                <label class="field-checkbox__name">
+                  <input class="field-checkbox__input" type="checkbox" name="year2021" value="">
+                  <span class="field-checkbox__name-text">Table for 2021</span>
+                </label>
+              </div>
+              <div class="field-checkbox">
+                <label class="field-checkbox__name">
+                  <input class="field-checkbox__input" type="checkbox" name="year2022" value="">
+                  <span class="field-checkbox__name-text">Table for 2022</span>
+                </label>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn"><span>Отримати</span></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script> -->
+
+  <script src="js/script.min.js"></script>
+
+
+</body>
+</html>

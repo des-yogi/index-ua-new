@@ -484,15 +484,33 @@ a {
   }
 }
 
+.criteria-table {
+
+  td,
+  th {
+    border-radius: $border-radius;
+  }
+}
+
+.table.dataTable {
+
+  td:last-child {
+    width: 330px !important;
+  }
+}
+
 .diagram-container {
+  display: flex;
+  justify-content: center !important;
   max-width: 100%;
-  margin: 24px 0;
+  margin: 24px 0 0 !important;
   overflow: auto;
 
   &:last-child {
     margin-bottom: 0;
   }
 }
+
 
 // -------- Colors End ----------
 

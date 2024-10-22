@@ -49,12 +49,12 @@
       left: 0;
       width: 24px;
       height: 24px;
-      border: 1px solid $divider-color;
-      border-radius: $border-radius;
+      border: 1px solid $link-color;
+      border-radius: 6px;
 
       @at-root input:checked ~ & {
         background-color: $link-color;
-        border-color: $link-color;
+        border-color: $link-color--active;
       }
     }
 
