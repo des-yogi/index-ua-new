@@ -128,7 +128,7 @@
 
   &__partners {
     display: flex;
-    //flex-wrap: wrap;
+    flex-wrap: wrap;
     gap: 0 32px;
   }
 
@@ -141,7 +141,23 @@
     }
 
     img {
-      width: auto;
+      width: 100%;
+    }
+
+    &--usaid {
+      flex: 0 0 100px;
+
+      @media (min-width: $screen-md) {
+        flex: 0 0 147px;
+      }
+    }
+
+    &--dixi {
+      flex: 0 0 140px;
+
+      @media (min-width: $screen-md) {
+        flex: 0 0 205px;
+      }
     }
   }
 }
