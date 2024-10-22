@@ -8,11 +8,12 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    margin-top: 32px;
-    gap: 16px;
+    justify-content: flex-start !important;
+    margin: 32px 0 24px !important;
+    gap: 16px !important;
 
     @media (min-width: $screen-md) {
-      gap: 24px;
+      gap: 24px !important;
     }
   }
 

@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html class="no-js  page" lang="en" prefix="og: https://ogp.me/ns#">
+
+<head>
+  <meta charset="utf-8">
+  <title>Аналітика</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="format-detection" content="telephone=no">
+
+  <meta name="description" content="sample text">
+  <meta name="keywords" content="sample text">
+  <meta name="robots" content="noindex,nofollow">
+  <!-- OpenGraph microdata
+  <meta property="og:url"      content="https://www.your-domain.com/your-page.html" />
+  <meta property="og:type"          content="website" />
+  <meta property="og:title"         content="Your Website Title" />
+  <meta property="og:description"   content="Your description" />
+  <meta property="og:image"         content="https://www.your-domain.com/path/image.jpg" />
+  <meta property="og:locale"        content="uk_UA" />
+  -->
+  <!-- <link rel="canonical" href="https://www.your-domain.com/"> -->
+  <!-- <link rel="preload" href="assets/fonts/roboto-v18-cyrillic_latin-700.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/roboto-v18-cyrillic_latin-500.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/noto-sans-v7-cyrillic_latin-regular.woff2" as="font" type="font/woff2" crossorigin> -->
+
+  <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;800&display=swap" rel="stylesheet"> -->
+
+  <link href="css/style.min.css" rel="stylesheet" media="screen">
+
+</head>
+
+<body>
+<noscript>У вас отключен JavaScript. Приносим наши извинения, но это делает затруднительным использование данного сайта.</noscript>
+
+  <div class="page__inner">
+
+    <div class="page__content">
+      <div class="page-header__wrapper">
+        <header class="page-header" id="header">
+
+          <div class="container  page-header__inner">
+
+            <div class="container  page-header__logotypes">
+
+                <a href="index.html" class="logo" title="Індекс прозорості енергетики України">
+                  <img src="img/index-ua-logo.svg" alt="Індекс прозорості енергетики України logo" width="284" height="64">
+                </a>
+
+                <a href="#" class="page-header__dixi-logo" title="DixiGroup">
+                  <img src="img/dixigroup-logo.svg" width="181" height="40" alt="Dixigroup">
+                </a>
+
+            </div>
+
+            <div class="container  page-header__service">
+              <button class="btn  btn--stroke  page-header__table-btn" data-bs-toggle="modal" data-bs-target="#formModal">
+                <svg width="24" height="24"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-svg.svg#download-table"></use></svg>
+                <span>Таблиці індикаторів</span>
+              </button>
+
+              <a href="#" class="btn  btn--stroke  lang-switcher">
+                <span>Eng</span>
+              </a>
+
+              <button id="burger"
+                      class="btn  btn--stroke  burger"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseMenu"
+                      aria-expanded="false"
+                      aria-controls="collapseMenu"
+                      aria-label="Переключатель моб. меню"
+              >
+                <span></span>
+              </button>
+
+            </div>
+
+          </div>
+
+
+          <div id="collapseMenu" class="container  page-header__nav-wrapper  collapse">
+            <button class="btn  btn--stroke  page-header__table-btn" data-bs-toggle="modal" data-bs-target="#formModal">
+              <svg width="24" height="24"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-svg.svg#download-table"></use></svg>
+              <span>Таблиці індикаторів</span>
+            </button>
+
+            <nav class="main-nav">
+              <ul class="main-nav__list">
+                <li class="main-nav__item  active">
+                  <a href="index.html" class="main-nav__link">
+                    Головна
+                  </a>
+                </li>
+                <li class="main-nav__item">
+                  <a href="about.html" class="main-nav__link">
+                    Про Індекс
+                  </a>
+                </li>
+                <li class="main-nav__item">
+                  <a href="analytics.html" class="main-nav__link">
+                    Аналітика
+                  </a>
+                </li>
+                <li class="main-nav__item">
+                  <a href="indicators.html" class="main-nav__link">
+                    Індикатор
+                  </a>
+                </li>
+                <li class="main-nav__item">
+                  <a href="methodology.html" class="main-nav__link">
+                    Методологія
+                  </a>
+                </li>
+                <li class="main-nav__item">
+                  <a href="reports.html" class="main-nav__link">
+                    Звіти
+                  </a>
+                </li>
+                <li class="main-nav__item">
+                  <a href="restoring.html" class="main-nav__link">
+                    Відновлення прозорості
+                  </a>
+                </li>
+              </ul>
+            </nav>
+
+          </div>
+        </header>
+      </div>
+
+
+      <main class="main">
+
+        <article class="article">
+
+          <div class="container  intro-block">
+            <div class="row">
+              <div class="intro-block__col  intro-block__col--text">
+                <h1 class="intro-block__title">Про індекс</h1>
+                <div class="intro-block__text">
+                  <p>Текст Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat habitant diam, consectetur convallis scelerisque. Sed fringilla orci nibh a at integer. Morbi adipiscing malesuada elit et eget duis.</p>
+                </div>
+                <!-- <div class="intro-block__link-wrapper">
+                  <a href="#" class="btn"><span>Детальніше</span></a>
+                </div> -->
+              </div>
+
+              <!-- <div class="intro-block__col">
+                <div class="embed-responsive embed-responsive--1-1  intro-block__img">
+                  <picture>
+                    <source srcset="img/hero-1.webp 585w,
+                                    img/hero-1.webp 700w,
+                                    img/hero-1.webp 800w,
+                                    img/hero-1.webp 900w"
+                            sizes="(max-width: 620px) 95vw, 585px"
+                            type="image/webp">
+
+                    <source srcset="img/hero-1.jpg 585w,
+                                    img/hero-1.jpg 700w,
+                                    img/hero-1.jpg 800w,
+                                    img/hero-1.jpg 900w"
+                            sizes="(max-width: 620px) 95vw, 585px">
+
+                    <img src="img/hero-1.jpg" alt="alt text" width="585" height="585">
+                  </picture>
+                </div>
+              </div> -->
+
+            </div>
+          </div>
+
+          <div class="container  analitics__wrapper">
+
+            <div class="years-index__wrapper">
+              <div class="row">
+
+                <div class="years-index__col">
+                  <section id="years-index" class="years-index">
+                    <div class="years-index__header">
+                      <h2 class="years-index__title">Індекс по рокам</h2>
+                      <p>Методологія визначення Індексу базується на статистичному методі багатовимірної середньої, який використовують для оцінювання складних об’єктів, процесів і явищ.</p>
+                      <p>Оцінювання прозорості енергетичного сектору України здійснюється щорічно. Величина інтегрального індексу може змінюватись від 0 до 100, що дозволяє бачити загальний рівень прозорості енергетичного сектору країни, а також його динаміку.</p>
+                    </div>
+
+                    <div class="diagram-container">
+                      <strong>[Диаграмма]</strong>
+                    </div>
+
+                    <div class="years-index__footer">
+                      <p></p>
+                    </div>
+                  </section>
+                </div>
+
+                <div class="score-interpretation__col">
+                  <section class="score-interpretation">
+                    <div class="score-interpretation__header">
+                      <h2 class="score-interpretation__title">Інтерпретація оцінок</h2>
+                      <p>Усі розраховані оцінки прозорості (за категоріями, підкатегоріями, ринками, органами влади) для зручності переведені в універсальну 100-бальну шкалу. Вони округлені до цілого значення і мають таке трактування:</p>
+                    </div>
+                    <figure class="score-interpretation__figure">
+                      <img src="img/score-diagram.svg" alt="Описание" width="505" height="504" loading="lazy" decoding="async">
+                    </figure>
+                  </section>
+                </div>
+
+              </div>
+            </div>
+
+            <section id="category-index" class="category-index">
+              <div class="category-index__header">
+
+                <h2 class="category-index__title">Оцінки прозорості за категоріями</h2>
+
+                <div class="two-col">
+                  <p>Усі індикатори Індексу згруповані у вісім категорій, які відображають різні аспекти функціонування енергетики країни:</p>
+
+                  <ul>
+                    <li>"Баланси" – прозорість річної та місячної енергетичної статистики.</li>
+                    <li>"Природні монополії" – прозорість діяльності операторів систем передачі (транспортування) й розподілу.</li>
+                    <li>"Постачання" – прозорість правил і конкуренції на ринках, цін і ціноутворення.</li>
+                    <li>"Надійність і безпека" – прозорість запасів (резервів); правил, звітності про надійність і безпеку енергопостачання.</li>
+                    <li>"Споживання" – прозорість стандартів обслуговування та обліку; інформації для споживачів про ціни і тарифи, субсидії та іншу допомогу, програми енергозбереження; комерційні пропозиції постачальників.</li>
+                    <li>"Звітність" – прозорість корпоративної звітності (фінансових, аудиторських звітів; звітів про управління; нефінансової інформації; платежів на користь держави; інформації про кінцевих бенефіціарів).</li>
+                    <li>"Політика" – прозорість виконання стратегічних і програмних документів енергетичної політики й сталого розвитку; політики енергоефективності, захисту довкілля, протидії змінам клімату, розвитку відновлюваних джерел енергії.</li>
+                    <li>"Органи влади" – прозорість витрачання бюджетних коштів; розроблення, ухвалення й виконання владних рішень, моніторинг їхньої результативності; формування керівних органів.</li>
+                  </ul>
+                  <p>Графік демонструє рівень прозорості енергетичного сектору України за окремими категоріями Індексу і дозволяє оцінити прогрес за напрямами (для цього у фільтрі можна одночасно вибрати до трьох років).</p>
+                </div>
+
+                <div class="category-index__btn-wrapper  checkbox-btn__wrapper">
+
+                  <div class="checkbox-btn">
+                    <input class="checkbox-btn__input  visually-hidden" id="year-2018" type="checkbox" name="year" value="" >
+                    <label class="checkbox-btn__label  btn" for="year-2018">2018</label>
+                  </div>
+
+                  <div class="checkbox-btn">
+                    <input class="checkbox-btn__input  visually-hidden" id="year-2019" type="checkbox" name="year" value="" >
+                    <label class="checkbox-btn__label  btn" for="year-2019">2019</label>
+                  </div>
+
+                  <div class="checkbox-btn">
+                    <input class="checkbox-btn__input  visually-hidden" id="year-2020" type="checkbox" name="year" value="" checked>
+                    <label class="checkbox-btn__label  btn" for="year-2020">2020</label>
+                  </div>
+
+                  <div class="checkbox-btn">
+                    <input class="checkbox-btn__input  visually-hidden" id="year-2021" type="checkbox" name="year" value="" >
+                    <label class="checkbox-btn__label  btn" for="year-2021">2021</label>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="category-index__diagram-wrapper  diagram-container">
+                <strong>[Диаграмма]</strong>
+              </div>
+            </section>
+
+            <section id="category-analysis" class="category-analysis">
+              <div class="category-analysis__header">
+                <h2 class="category-analysis__title">Аналіз за категоріями</h2>
+
+                <div class="category-analysis__col">
+                  <p>Для зручності оцінювання, а також можливості проведення глибшого аналізу інформаційної відкритості сектору, індикатори кожної категорії Індексу об’єднані у підкатегорії. Вони дозволяють бачити більш детальну картину й чіткіше діагностувати проблемні зони і прогалини.</p>
+                  <p>Діаграма показує оцінки прозорості у розрізі окремих підкатегорій кожної з восьми категорій Індексу.</p>
+                </div>
+
+                <div class="category-analysis__btn-wrapper  checkbox-btn__wrapper">
+
+                  <div class="checkbox-btn">
+                    <input class="checkbox-btn__input  visually-hidden" id="analysis-2018" type="radio" name="analysis" value="" >
+                    <label class="checkbox-btn__label  btn" for="analysis-2018">2018</label>
+                  </div>
+
+                  <div class="checkbox-btn">
+                    <input class="checkbox-btn__input  visually-hidden" id="analysis-2019" type="radio" name="analysis" value="" checked>
+                    <label class="checkbox-btn__label  btn" for="analysis-2019">2019</label>
+                  </div>
+
+                  <div class="checkbox-btn">
+                    <input class="checkbox-btn__input  visually-hidden" id="analysis-2020" type="radio" name="analysis" value="" >
+                    <label class="checkbox-btn__label  btn" for="analysis-2020">2020</label>
+                  </div>
+
+                  <div class="checkbox-btn">
+                    <input class="checkbox-btn__input  visually-hidden" id="analysis-2021" type="radio" name="analysis" value="" >
+                    <label class="checkbox-btn__label  btn" for="analysis-2021">2021</label>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="category-analysis__diagram-wrapper  diagram-container">
+                <strong>[Диаграмма]</strong>
+              </div>
+            </section>
+
+            <section id="transparency-score" class="transparency-score">
+              <div class="transparency-score__header">
+                <h2 class="transparency-score__title">Оцінки прозорості за секторами (ринками):</h2>
+
+                <div class="two-col">
+                  <p>Прозорість ринків є однією з ключових умов їх ефективного функціонування, розвитку конкуренції, справедливого ціноутворення, сприятливого інвестиційного клімату та кращого задоволення потреб споживачів.</p>
+                  <p>По кожному з ринків розраховується загальна оцінка прозорості та оцінки в розрізі п’яти категорій секторального характеру: "Баланси", "Природні монополії", "Постачання", "Надійність і безпека", ”Споживання", "Звітність". Інші три категорії - "Звітність", "Політика" та “Органи влади” - носять крос-секторальний характер, оскільки стосуються енергетичного сектору в цілому. Вони не враховуються при розрахунку оцінок прозорості ринків.</p>
+
+                  <h6>Індекс охоплює п’ять енергетичних ринків:</h6>
+
+                  <ul>
+                    <li>Природний газ</li>
+                    <li>Нафта й рідке паливо</li>
+                    <li>Теплова енергія</li>
+                    <li>Електрична енергія</li>
+                    <li>Енергетичне вугілля</li>
+                  </ul>
+                  <p>Ринки мають різну ступінь регулювання, а також законодавчі вимоги до оприлюднення інформації їхніми учасниками. Ці відмінності відображаються у результатах оцінювання прозорості за окремими енергетичними ринками України.</p>
+                </div>
+
+                <div class="transparency-score__btn-wrapper  checkbox-btn__wrapper">
+
+                  <div class="checkbox-btn">
+                    <input class="checkbox-btn__input  visually-hidden" id="score-2018" type="radio" name="score" value="" >
+                    <label class="checkbox-btn__label  btn" for="score-2018">2018</label>
+                  </div>
+
+                  <div class="checkbox-btn">
+                    <input class="checkbox-btn__input  visually-hidden" id="score-2019" type="radio" name="score" value="" checked>
+                    <label class="checkbox-btn__label  btn" for="score-2019">2019</label>
+                  </div>
+
+                  <div class="checkbox-btn">
+                    <input class="checkbox-btn__input  visually-hidden" id="score-2020" type="radio" name="score" value="" >
+                    <label class="checkbox-btn__label  btn" for="score-2020">2020</label>
+                  </div>
+
+                  <div class="checkbox-btn">
+                    <input class="checkbox-btn__input  visually-hidden" id="score-2021" type="radio" name="score" value="" >
+                    <label class="checkbox-btn__label  btn" for="score-2021">2021</label>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="transparency-score__table-wrapper">
+                <table class="table transparency-score__table">
+                  <tr>
+                    <th rowspan="2">Секторальні індекси</th>
+                    <th>Природний газ</th>
+                    <th>Електрична енергія</th>
+                    <th>Нафта й рідке паливо</th>
+                    <th>Енергетичне вугілля</th>
+                    <th>Теплова енергія</th>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="transparency-score__bar-wrapper">
+                        <span class="transparency-score__bar f" style="width:30%" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
+                        </span>
+                        <span class="transparency-score__value">30</span>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="transparency-score__bar-wrapper">
+                        <span class="transparency-score__bar d" style="width:46%" role="progressbar" aria-valuenow="46" aria-valuemin="0" aria-valuemax="100">
+                        </span>
+                        <span class="transparency-score__value">46</span>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="transparency-score__bar-wrapper">
+                        <span class="transparency-score__bar d-plus" style="width:50%" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                        </span>
+                        <span class="transparency-score__value">50</span>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="transparency-score__bar-wrapper">
+                        <span class="transparency-score__bar c" style="width:62%" role="progressbar" aria-valuenow="62" aria-valuemin="0" aria-valuemax="100">
+                        </span>
+                        <span class="transparency-score__value">62</span>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="transparency-score__bar-wrapper">
+                        <span class="transparency-score__bar c-plus" style="width:66%" role="progressbar" aria-valuenow="66" aria-valuemin="0" aria-valuemax="100">
+                        </span>
+                        <span class="transparency-score__value">66</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="top-border"><span>1.&nbsp;Баланси</span></td>
+                    <td>
+                      <div class="transparency-score__bar-wrapper">
+                        <span class="transparency-score__bar a-plus" style="width:97%" role="progressbar" aria-valuenow="97" aria-valuemin="0" aria-valuemax="100">
+                        </span>
+                        <span class="transparency-score__value">97</span>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="transparency-score__bar-wrapper">
+                        <span class="transparency-score__bar a-minus" style="width:86%" role="progressbar" aria-valuenow="86" aria-valuemin="0" aria-valuemax="100">
+                        </span>
+                        <span class="transparency-score__value">86</span>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="transparency-score__bar-wrapper">
+                        <span class="transparency-score__bar b-plus" style="width:82%" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100">
+                        </span>
+                        <span class="transparency-score__value">82</span>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="transparency-score__bar-wrapper">
+                        <span class="transparency-score__bar b-minus" style="width:71%" role="progressbar" aria-valuenow="71" aria-valuemin="0" aria-valuemax="100">
+                        </span>
+                        <span class="transparency-score__value">71</span>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="transparency-score__bar-wrapper">
+                        <span class="transparency-score__bar c-minus" style="width:59%" role="progressbar" aria-valuenow="59" aria-valuemin="0" aria-valuemax="100">
+                        </span>
+                        <span class="transparency-score__value">59</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="top-border"><span>2.&nbsp;Природні монополії</span></td>
+                    <td>
+                      <div class="transparency-score__bar-wrapper">
+                        <span class="transparency-score__bar d-minus" style="width:43%" role="progressbar" aria-valuenow="43" aria-valuemin="0" aria-valuemax="100">
+                        </span>
+                        <span class="transparency-score__value">43</span>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="transparency-score__bar-wrapper">
+                        <span class="transparency-score__bar f" style="width:30%" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
+                        </span>
+                        <span class="transparency-score__value">30</span>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="transparency-score__bar-wrapper">
+                        <span class="transparency-score__bar" style="width:0" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
+                        </span>
+                        <span class="transparency-score__value">0</span>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="transparency-score__bar-wrapper">
+                        <span class="transparency-score__bar" style="width:0" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
+                        </span>
+                        <span class="transparency-score__value">n&frasl;a</span>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="transparency-score__bar-wrapper">
+                        <span class="transparency-score__bar" style="width:0" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
+                        </span>
+                        <span class="transparency-score__value">n&frasl;a</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="top-border"><span>3.&nbsp;Постачання</span></td>
+                    <td>
+                      <div class="transparency-score__bar-wrapper">
+                        <span class="transparency-score__bar f" style="width:30%" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
+                        </span>
+                        <span class="transparency-score__value">30</span>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="transparency-score__bar-wrapper">
+                        <span class="transparency-score__bar f" style="width:30%" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
+                        </span>
+                        <span class="transparency-score__value">30</span>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="transparency-score__bar-wrapper">
+                        <span class="transparency-score__bar f" style="width:30%" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
+                        </span>
+                        <span class="transparency-score__value">30</span>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="transparency-score__bar-wrapper">
+                        <span class="transparency-score__bar f" style="width:30%" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
+                        </span>
+                        <span class="transparency-score__value">30</span>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="transparency-score__bar-wrapper">
+                        <span class="transparency-score__bar f" style="width:30%" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
+                        </span>
+                        <span class="transparency-score__value">30</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="top-border"><span>4.&nbsp;Надійність і безпека</span></td>
+                    <td>
+                      <div class="transparency-score__bar-wrapper">
+                        <span class="transparency-score__bar f" style="width:30%" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
+                        </span>
+                        <span class="transparency-score__value">30</span>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="transparency-score__bar-wrapper">
+                        <span class="transparency-score__bar f" style="width:30%" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
+                        </span>
+                        <span class="transparency-score__value">30</span>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="transparency-score__bar-wrapper">
+                        <span class="transparency-score__bar f" style="width:30%" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
+                        </span>
+                        <span class="transparency-score__value">30</span>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="transparency-score__bar-wrapper">
+                        <span class="transparency-score__bar f" style="width:30%" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
+                        </span>
+                        <span class="transparency-score__value">30</span>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="transparency-score__bar-wrapper">
+                        <span class="transparency-score__bar f" style="width:30%" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
+                        </span>
+                        <span class="transparency-score__value">30</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="top-border"><span>5.&nbsp;Споживання</span></td>
+                    <td>
+                      <div class="transparency-score__bar-wrapper">
+                        <span class="transparency-score__bar f" style="width:30%" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
+                        </span>
+                        <span class="transparency-score__value">30</span>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="transparency-score__bar-wrapper">
+                        <span class="transparency-score__bar f" style="width:30%" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
+                        </span>
+                        <span class="transparency-score__value">30</span>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="transparency-score__bar-wrapper">
+                        <span class="transparency-score__bar f" style="width:30%" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
+                        </span>
+                        <span class="transparency-score__value">30</span>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="transparency-score__bar-wrapper">
+                        <span class="transparency-score__bar f" style="width:30%" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
+                        </span>
+                        <span class="transparency-score__value">30</span>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="transparency-score__bar-wrapper">
+                        <span class="transparency-score__bar f" style="width:30%" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
+                        </span>
+                        <span class="transparency-score__value">30</span>
+                      </div>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </section>
+
+            <section id="different-authorities" class="different-authorities" style="border-bottom:none;">
+              <div class="different-authorities__header">
+                <h2 class="different-authorities__title">Органи влади</h2>
+
+                <div class="two-col">
+                  <p>Для стимулювання органів влади, що є розпорядниками інформації, покращувати власну прозорість (при формуванні і реалізації енергетичної політики, здійсненні регулювання та моніторингу сектору, витрачанні бюджетних коштів, формуванні керівних органів тощо), а також інформаційну відкритість енергетичних ринків, у рамках Індексу проводиться оцінювання прозорості органів влади.</p>
+                  <p>Розрахунок оцінок здійснюється в розрізі окремих індикаторів Індексу, які асоціюються з тим чи іншим органом влади. Оскільки кількість таких індикаторів є різною, розраховані оцінки не можуть використовуватись для рейтингування органів влади за рівнем прозорості і мають сприйматися як референтні.</p>
+                </div>
+
+                <div class="different-authorities__btn-wrapper  checkbox-btn__wrapper">
+
+                  <div class="checkbox-btn">
+                    <input class="checkbox-btn__input  visually-hidden" id="authorities-2018" type="radio" name="authorities" value="" >
+                    <label class="checkbox-btn__label  btn" for="authorities-2018">2018</label>
+                  </div>
+
+                  <div class="checkbox-btn">
+                    <input class="checkbox-btn__input  visually-hidden" id="authorities-2019" type="radio" name="authorities" value="" checked>
+                    <label class="checkbox-btn__label  btn" for="authorities-2019">2019</label>
+                  </div>
+
+                  <div class="checkbox-btn">
+                    <input class="checkbox-btn__input  visually-hidden" id="authorities-2020" type="radio" name="authorities" value="" >
+                    <label class="checkbox-btn__label  btn" for="authorities-2020">2020</label>
+                  </div>
+
+                  <div class="checkbox-btn">
+                    <input class="checkbox-btn__input  visually-hidden" id="authorities-2021" type="radio" name="authorities" value="" >
+                    <label class="checkbox-btn__label  btn" for="authorities-2021">2021</label>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="different-authorities__diagram-wrapper  diagram-container">
+                <strong>[Диаграмма]</strong>
+              </div>
+            </section>
+
+          </div>
+
+        </article>
+
+      </main>
+
+    </div>
+
+    <div class="page__footer-wrapper">
+
+      <footer class="container  page-footer">
+        <div class="row  page-footer__row">
+
+          <div class="page-footer__logo-col">
+            <a href="index.html" class="logo" title="Індекс прозорості енергетики України">
+              <img src="img/index-ua-logo.svg" alt="Індекс прозорості енергетики України logo" width="284" height="64">
+            </a>
+            <div class="page-footer__email">
+              <a href="mailto:author@dixigroup.org" class="page-footer__menu-link  page-footer__menu-link--email">author@dixigroup.org</a>
+            </div>
+          </div>
+
+          <div class="page-footer__menu-col">
+            <nav class="page-footer__menu">
+              <ul class="row  list-nostyled  page-footer__menu-list">
+                <li class="page-footer__menu-item">
+                  <a href="#" class="page-footer__menu-link">Головна</a>
+                </li>
+                <li class="page-footer__menu-item">
+                  <a href="#" class="page-footer__menu-link">Про нас</a>
+                </li>
+                <li class="page-footer__menu-item">
+                  <a href="#" class="page-footer__menu-link">Аналітика</a>
+                </li>
+                <li class="page-footer__menu-item">
+                  <a href="#" class="page-footer__menu-link">Індикатори</a>
+                </li>
+                <li class="page-footer__menu-item">
+                  <a href="#" class="page-footer__menu-link">Методологія</a>
+                </li>
+                <li class="page-footer__menu-item">
+                  <a href="#" class="page-footer__menu-link">Звіти</a>
+                </li>
+                <li class="page-footer__menu-item">
+                  <a href="#" class="page-footer__menu-link">Відновлення прозорості</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+
+          <div class="page-footer__info-col">
+            <div class="page-footer__info">
+              <p class="page-footer__text">
+                Робота веб-сайту стала можливою завдяки підтримці американського народу через Агентство США з міжнародного розвитку (USAID). За зміст інформації несе виключну відповідальність DiXi Group, він не обов'язково відображає погляди USAID або Уряду Сполучених Штатів.
+              </p>
+              <div class="page-footer__partners">
+                <a href="#" class="page-footer__partner" title="USAID">
+                  <img src="img/usaid-logo.svg" width="147" height="44" alt="USAID logo" loading="lazy">
+                </a>
+                <a href="#" class="page-footer__partner" title="DIXIGROUP">
+                  <img src="img/dixigroup-logo.svg" alt="DIXIGROUP logo" width="205" height="44" loading="lazy">
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <section class="copyrights">
+          <h2 class="visually-hidden">Copyrights</h2>
+          <div class="copyrights__inner">
+            <div class="copyrights__owner">
+              <span>© 2023 Index. All rights reserved.</span>
+            </div>
+            <div class="copyrights__dev">
+              <a href="https://it-doors.com.ua" target="_blank" rel="nofollow noopener" title="IT-Doors Outsourcing, developer">
+                <img src="img/it-doors-logo.svg" width="59" height="22" alt="IT-Doors logo" loading="lazy">
+              </a>
+            </div>
+          </div>
+        </section>
+
+      </footer>
+
+    </div>
+
+  </div>
+
+  <!-- Modal -->
+  <div class="modal-form  modal fade" id="formModal" tabindex="-1" aria-labelledby="formModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title  modal-form__title" id="formModalLabel">Отримати таблиці показників</h4>
+          <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+            <span class="visually-hidden">Закрыть модальное окно</span>
+            <svg width="26" height="26"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-svg.svg#close"></use></svg>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form id="getTable" action="" method="post">
+
+            <label class="field-text">
+              <span class="field-text__input-wrap">
+                <input class="field-text__input  field-text__input--required" type="text" name="name" value="" placeholder="First name">
+                <span class="field-text__help-text  error_name">Error</span>
+              </span>
+            </label>
+
+            <label class="field-text">
+              <span class="field-text__input-wrap">
+                <input class="field-text__input  field-text__input--required" type="text" name="surname" value="" placeholder="Surname">
+                <span class="field-text__help-text  error_surname"></span>
+              </span>
+            </label>
+
+            <label class="field-text">
+              <span class="field-text__input-wrap">
+                <input class="field-text__input  field-text__input--required" type="text" name="country" value="" placeholder="Country">
+                <span class="field-text__help-text  error_country"></span>
+              </span>
+            </label>
+
+            <label class="field-text">
+              <span class="field-text__input-wrap">
+                <input class="field-text__input" type="text" name="organiz" value="" placeholder="Organization">
+                <span class="field-text__help-text  error_organiz"></span>
+              </span>
+            </label>
+
+            <label class="field-text">
+              <span class="field-text__input-wrap">
+                <input class="field-text__input  field-text__input--required" type="email" name="email" value="" placeholder="E-mail">
+                <span class="field-text__help-text  error_email"></span>
+              </span>
+            </label>
+
+            <div class="field-checkbox__wrapper">
+              <div class="field-checkbox">
+                <label class="field-checkbox__name">
+                  <input class="field-checkbox__input" type="checkbox" name="year2020" value="">
+                  <span class="field-checkbox__name-text">Table for 2020</span>
+                </label>
+              </div>
+              <div class="field-checkbox">
+                <label class="field-checkbox__name">
+                  <input class="field-checkbox__input" type="checkbox" name="year2021" value="">
+                  <span class="field-checkbox__name-text">Table for 2021</span>
+                </label>
+              </div>
+              <div class="field-checkbox">
+                <label class="field-checkbox__name">
+                  <input class="field-checkbox__input" type="checkbox" name="year2022" value="">
+                  <span class="field-checkbox__name-text">Table for 2022</span>
+                </label>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn"><span>Отримати</span></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script> -->
+
+  <script src="js/script.min.js"></script>
+
+
+</body>
+</html>

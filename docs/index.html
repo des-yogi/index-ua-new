@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+<html class="no-js  page" lang="uk" prefix="og: https://ogp.me/ns#">
+
+<head>
+  <meta charset="utf-8">
+  <title>Home page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="format-detection" content="telephone=no">
+
+  <meta name="description" content="sample text">
+  <meta name="keywords" content="sample text">
+  <meta name="robots" content="noindex,nofollow">
+  <!-- OpenGraph microdata
+  <meta property="og:url"      content="https://www.your-domain.com/your-page.html" />
+  <meta property="og:type"          content="website" />
+  <meta property="og:title"         content="Your Website Title" />
+  <meta property="og:description"   content="Your description" />
+  <meta property="og:image"         content="https://www.your-domain.com/path/image.jpg" />
+  <meta property="og:locale"        content="uk_UA" />
+  -->
+  <!-- <link rel="canonical" href="https://www.your-domain.com/"> -->
+  <!-- <link rel="preload" href="assets/fonts/roboto-v18-cyrillic_latin-700.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/roboto-v18-cyrillic_latin-500.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/noto-sans-v7-cyrillic_latin-regular.woff2" as="font" type="font/woff2" crossorigin> -->
+
+  <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;800&display=swap" rel="stylesheet"> -->
+
+  <link href="css/style.min.css" rel="stylesheet" media="screen">
+
+</head>
+
+<body>
+<noscript>У вас отключен JavaScript. Приносим наши извинения, но это делает затруднительным использование данного сайта.</noscript>
+
+  <div class="page__inner">
+
+    <div class="page__content">
+      <div class="page-header__wrapper">
+        <header class="page-header" id="header">
+
+          <div class="container  page-header__inner">
+
+            <div class="container  page-header__logotypes">
+
+                <a href="index.html" class="logo" title="Індекс прозорості енергетики України">
+                  <img src="img/index-ua-logo.svg" alt="Індекс прозорості енергетики України logo" width="284" height="64">
+                </a>
+
+                <a href="#" class="page-header__dixi-logo" title="DixiGroup">
+                  <img src="img/dixigroup-logo.svg" width="181" height="40" alt="Dixigroup">
+                </a>
+
+            </div>
+
+            <div class="container  page-header__service">
+              <button class="btn  btn--stroke  page-header__table-btn" data-bs-toggle="modal" data-bs-target="#formModal">
+                <svg width="24" height="24"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-svg.svg#download-table"></use></svg>
+                <span>Таблиці індикаторів</span>
+              </button>
+
+              <a href="#" class="btn  btn--stroke  lang-switcher">
+                <span>Eng</span>
+              </a>
+
+              <button id="burger"
+                      class="btn  btn--stroke  burger"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseMenu"
+                      aria-expanded="false"
+                      aria-controls="collapseMenu"
+                      aria-label="Переключатель моб. меню"
+              >
+                <span></span>
+              </button>
+
+            </div>
+
+          </div>
+
+
+          <div id="collapseMenu" class="container  page-header__nav-wrapper  collapse">
+            <button class="btn  btn--stroke  page-header__table-btn" data-bs-toggle="modal" data-bs-target="#formModal">
+              <svg width="24" height="24"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-svg.svg#download-table"></use></svg>
+              <span>Таблиці індикаторів</span>
+            </button>
+
+            <nav class="main-nav">
+              <ul class="main-nav__list">
+                <li class="main-nav__item  active">
+                  <a href="index.html" class="main-nav__link">
+                    Головна
+                  </a>
+                </li>
+                <li class="main-nav__item">
+                  <a href="about.html" class="main-nav__link">
+                    Про Індекс
+                  </a>
+                </li>
+                <li class="main-nav__item">
+                  <a href="analytics.html" class="main-nav__link">
+                    Аналітика
+                  </a>
+                </li>
+                <li class="main-nav__item">
+                  <a href="indicators.html" class="main-nav__link">
+                    Індикатор
+                  </a>
+                </li>
+                <li class="main-nav__item">
+                  <a href="methodology.html" class="main-nav__link">
+                    Методологія
+                  </a>
+                </li>
+                <li class="main-nav__item">
+                  <a href="reports.html" class="main-nav__link">
+                    Звіти
+                  </a>
+                </li>
+                <li class="main-nav__item">
+                  <a href="restoring.html" class="main-nav__link">
+                    Відновлення прозорості
+                  </a>
+                </li>
+              </ul>
+            </nav>
+
+          </div>
+        </header>
+      </div>
+
+
+      <main class="main">
+
+        <div class="container  intro-block">
+          <div class="row">
+            <div class="intro-block__col  intro-block__col--text">
+              <h1 class="intro-block__title">Індекс прозорості енергетики України</h1>
+              <div class="intro-block__text">
+                <p>Індекс прозорості енергетики розроблено для комплексного оцінювання доступності та якості інформації у енергетичному секторі.</p>
+                <p>Індекс - це:</p>
+                <ul>
+                  <li>кінцевий продукт, що надає загальну та деталізовану оцінки інформаційній відкритості енергетичного сектору країни й діагностує прогалини;</li>
+                  <li>універсальний інструмент, який дозволяє аналізувати прозорість за окремими категоріями, енергетичними ринками та індикаторами, відстежувати прогрес як у динаміці, так і в порівнянні з іншими країнами.</li>
+                </ul>
+                <p>Головним кінцевим бенефіціаром Індексу є споживач, обізнаність якого покращує можливості захисту своїх прав, допомагає бути повноцінним учасником ринку і приймати більш раціональні економічні рішення.</p>
+              </div>
+              <div class="intro-block__link-wrapper">
+                <a href="#" class="btn"><span>Детальніше</span></a>
+              </div>
+            </div>
+
+            <div class="intro-block__col">
+              <div class="embed-responsive embed-responsive--1-1  intro-block__img">
+                <picture>
+                  <source srcset="img/hero-1.webp 585w,
+                                  img/hero-1.webp 700w,
+                                  img/hero-1.webp 800w,
+                                  img/hero-1.webp 900w"
+                          sizes="(max-width: 620px) 95vw, 585px"
+                          type="image/webp">
+
+                  <source srcset="img/hero-1.jpg 585w,
+                                  img/hero-1.jpg 700w,
+                                  img/hero-1.jpg 800w,
+                                  img/hero-1.jpg 900w"
+                          sizes="(max-width: 620px) 95vw, 585px">
+
+                  <img src="img/hero-1.jpg" alt="alt text" width="585" height="585">
+                </picture>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <section class="container  country-slider">
+          <h2 class="country-slider__title">Індекс прозорості енергетики</h2>
+          <p class="country-slider__intro">Текст Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat habitant diam, consectetur convallis scelerisque.</p>
+
+          <div class="swiper  country-slider__container">
+            <div class="swiper-wrapper">
+
+              <article class="swiper-slide  country-slider__slide">
+                <h3 class="visually-hidden">Energy transparency index for Georgia</h3>
+
+                <div class="row">
+
+                  <div class="country-slider__country-col">
+                    <section class="country-slider__country">
+                      <div class=" country-slider__flag-wrapper" role="presentation">
+                        <div class="row">
+                          <div class="country-slider__flag-col">
+                            <div class="country-slider__flag">
+                              <div class="embed-responsive embed-responsive--4-3  country-slider__flag-img">
+                                <img src="img/ge.svg" alt="" width="64" height="48" loading="lazy">
+                              </div>
+                            </div>
+                          </div>
+                          <div class="country-slider__flag-text-col">
+                            <span class="country-slider__flag-text">Georgia</span>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="country-slider__score  c-minus">
+                        <h4 class="country-slider__score-title">Overall Score</h4>
+                        <p class="country-slider__score-descr">
+                          <span>61</span>
+                          <span>C-</span>
+                          <span>Medium transparency</span>
+                        </p>
+                      </div>
+                    </section>
+                  </div>
+
+                  <div class="country-slider__indexes-col">
+                    <div class="country-slider__indexes">
+                      <div class="row">
+
+                        <div class="country-slider__index-card-col">
+                          <section class="country-slider__index-card">
+                            <h5 class="country-slider__index-card-title">Balances</h5>
+                            <p class="country-slider__index-card-score  a-plus">
+                              <span>100</span>
+                              <span>A+</span>
+                            </p>
+                          </section>
+                        </div>
+
+                        <div class="country-slider__index-card-col">
+                          <section class="country-slider__index-card">
+                            <h5 class="country-slider__index-card-title">Natural monopolies</h5>
+                            <p class="country-slider__index-card-score  a">
+                              <span>77</span>
+                              <span>A</span>
+                            </p>
+                          </section>
+                        </div>
+
+                        <div class="country-slider__index-card-col">
+                          <section class="country-slider__index-card">
+                            <h5 class="country-slider__index-card-title">Supply</h5>
+                            <p class="country-slider__index-card-score  b-minus">
+                              <span>61</span>
+                              <span>B-</span>
+                            </p>
+                          </section>
+                        </div>
+
+                        <div class="country-slider__index-card-col">
+                          <section class="country-slider__index-card">
+                            <h5 class="country-slider__index-card-title">Reliability and security</h5>
+                            <p class="country-slider__index-card-score  b">
+                              <span>67</span>
+                              <span>B</span>
+                            </p>
+                          </section>
+                        </div>
+
+                        <div class="country-slider__index-card-col">
+                          <section class="country-slider__index-card">
+                            <h5 class="country-slider__index-card-title">Consumption</h5>
+                            <p class="country-slider__index-card-score  c-minus">
+                              <span>59</span>
+                              <span>C-</span>
+                            </p>
+                          </section>
+                        </div>
+
+                        <div class="country-slider__index-card-col">
+                          <section class="country-slider__index-card">
+                            <h5 class="country-slider__index-card-title">Reporting</h5>
+                            <p class="country-slider__index-card-score  c-plus">
+                              <span>66</span>
+                              <span>C+</span>
+                            </p>
+                          </section>
+                        </div>
+
+                        <div class="country-slider__index-card-col">
+                          <section class="country-slider__index-card">
+                            <h5 class="country-slider__index-card-title">Policy</h5>
+                            <p class="country-slider__index-card-score  d-plus">
+                              <span>54</span>
+                              <span>D+</span>
+                            </p>
+                          </section>
+                        </div>
+
+                        <div class="country-slider__index-card-col">
+                          <section class="country-slider__index-card">
+                            <h5 class="country-slider__index-card-title">Public authorities</h5>
+                            <p class="country-slider__index-card-score  f">
+                              <span>13</span>
+                              <span>F</span>
+                            </p>
+                          </section>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+              </article>
+
+              <article class="swiper-slide  country-slider__slide">
+                <h3 class="visually-hidden">Energy transparency index for Ukraine</h3>
+
+                <div class="row">
+
+                  <div class="country-slider__country-col">
+                    <section class="country-slider__country">
+                      <div class=" country-slider__flag-wrapper" role="presentation">
+                        <div class="row">
+                          <div class="country-slider__flag-col">
+                            <div class="country-slider__flag">
+                              <div class="embed-responsive embed-responsive--4-3  country-slider__flag-img">
+                                <img src="img/ua.svg" alt="" width="64" height="48" loading="lazy">
+                              </div>
+                            </div>
+                          </div>
+                          <div class="country-slider__flag-text-col">
+                            <span class="country-slider__flag-text">Ukraine</span>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="country-slider__score  c-minus">
+                        <h4 class="country-slider__score-title">Overall Score</h4>
+                        <p class="country-slider__score-descr">
+                          <span>61</span>
+                          <span>C-</span>
+                          <span>Medium transparency</span>
+                        </p>
+                      </div>
+                    </section>
+                  </div>
+
+                  <div class="country-slider__indexes-col">
+                    <div class="country-slider__indexes">
+                      <div class="row">
+
+                        <div class="country-slider__index-card-col">
+                          <section class="country-slider__index-card">
+                            <h5 class="country-slider__index-card-title">Balances</h5>
+                            <p class="country-slider__index-card-score  a-plus">
+                              <span>100</span>
+                              <span>A+</span>
+                            </p>
+                          </section>
+                        </div>
+
+                        <div class="country-slider__index-card-col">
+                          <section class="country-slider__index-card">
+                            <h5 class="country-slider__index-card-title">Natural monopolies</h5>
+                            <p class="country-slider__index-card-score  a">
+                              <span>77</span>
+                              <span>A</span>
+                            </p>
+                          </section>
+                        </div>
+
+                        <div class="country-slider__index-card-col">
+                          <section class="country-slider__index-card">
+                            <h5 class="country-slider__index-card-title">Supply</h5>
+                            <p class="country-slider__index-card-score  b-minus">
+                              <span>61</span>
+                              <span>B-</span>
+                            </p>
+                          </section>
+                        </div>
+
+                        <div class="country-slider__index-card-col">
+                          <section class="country-slider__index-card">
+                            <h5 class="country-slider__index-card-title">Reliability and security</h5>
+                            <p class="country-slider__index-card-score  b">
+                              <span>67</span>
+                              <span>B</span>
+                            </p>
+                          </section>
+                        </div>
+
+                        <div class="country-slider__index-card-col">
+                          <section class="country-slider__index-card">
+                            <h5 class="country-slider__index-card-title">Consumption</h5>
+                            <p class="country-slider__index-card-score  c-minus">
+                              <span>59</span>
+                              <span>C-</span>
+                            </p>
+                          </section>
+                        </div>
+
+                        <div class="country-slider__index-card-col">
+                          <section class="country-slider__index-card">
+                            <h5 class="country-slider__index-card-title">Reporting</h5>
+                            <p class="country-slider__index-card-score  c-plus">
+                              <span>66</span>
+                              <span>C+</span>
+                            </p>
+                          </section>
+                        </div>
+
+                        <div class="country-slider__index-card-col">
+                          <section class="country-slider__index-card">
+                            <h5 class="country-slider__index-card-title">Policy</h5>
+                            <p class="country-slider__index-card-score  d-plus">
+                              <span>54</span>
+                              <span>D+</span>
+                            </p>
+                          </section>
+                        </div>
+
+                        <div class="country-slider__index-card-col">
+                          <section class="country-slider__index-card">
+                            <h5 class="country-slider__index-card-title">Public authorities</h5>
+                            <p class="country-slider__index-card-score  f">
+                              <span>13</span>
+                              <span>F</span>
+                            </p>
+                          </section>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+              </article>
+
+              <article class="swiper-slide  country-slider__slide">
+                <h3 class="visually-hidden">Energy transparency index for USA</h3>
+
+                <div class="row">
+
+                  <div class="country-slider__country-col">
+                    <section class="country-slider__country">
+                      <div class=" country-slider__flag-wrapper" role="presentation">
+                        <div class="row">
+                          <div class="country-slider__flag-col">
+                            <div class="country-slider__flag">
+                              <div class="embed-responsive embed-responsive--4-3  country-slider__flag-img">
+                                <img src="img/us.svg" alt="" width="64" height="48" loading="lazy">
+                              </div>
+                            </div>
+                          </div>
+                          <div class="country-slider__flag-text-col">
+                            <span class="country-slider__flag-text">USA</span>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="country-slider__score  c-minus">
+                        <h4 class="country-slider__score-title">Overall Score</h4>
+                        <p class="country-slider__score-descr">
+                          <span>61</span>
+                          <span>C-</span>
+                          <span>Medium transparency</span>
+                        </p>
+                      </div>
+                    </section>
+                  </div>
+
+                  <div class="country-slider__indexes-col">
+                    <div class="country-slider__indexes">
+                      <div class="row">
+
+                        <div class="country-slider__index-card-col">
+                          <section class="country-slider__index-card">
+                            <h5 class="country-slider__index-card-title">Balances</h5>
+                            <p class="country-slider__index-card-score  a-plus">
+                              <span>100</span>
+                              <span>A+</span>
+                            </p>
+                          </section>
+                        </div>
+
+                        <div class="country-slider__index-card-col">
+                          <section class="country-slider__index-card">
+                            <h5 class="country-slider__index-card-title">Natural monopolies</h5>
+                            <p class="country-slider__index-card-score  a">
+                              <span>77</span>
+                              <span>A</span>
+                            </p>
+                          </section>
+                        </div>
+
+                        <div class="country-slider__index-card-col">
+                          <section class="country-slider__index-card">
+                            <h5 class="country-slider__index-card-title">Supply</h5>
+                            <p class="country-slider__index-card-score  b-minus">
+                              <span>61</span>
+                              <span>B-</span>
+                            </p>
+                          </section>
+                        </div>
+
+                        <div class="country-slider__index-card-col">
+                          <section class="country-slider__index-card">
+                            <h5 class="country-slider__index-card-title">Reliability and security</h5>
+                            <p class="country-slider__index-card-score  b">
+                              <span>67</span>
+                              <span>B</span>
+                            </p>
+                          </section>
+                        </div>
+
+                        <div class="country-slider__index-card-col">
+                          <section class="country-slider__index-card">
+                            <h5 class="country-slider__index-card-title">Consumption</h5>
+                            <p class="country-slider__index-card-score  c-minus">
+                              <span>59</span>
+                              <span>C-</span>
+                            </p>
+                          </section>
+                        </div>
+
+                        <div class="country-slider__index-card-col">
+                          <section class="country-slider__index-card">
+                            <h5 class="country-slider__index-card-title">Reporting</h5>
+                            <p class="country-slider__index-card-score  c-plus">
+                              <span>66</span>
+                              <span>C+</span>
+                            </p>
+                          </section>
+                        </div>
+
+                        <div class="country-slider__index-card-col">
+                          <section class="country-slider__index-card">
+                            <h5 class="country-slider__index-card-title">Policy</h5>
+                            <p class="country-slider__index-card-score  d-plus">
+                              <span>54</span>
+                              <span>D+</span>
+                            </p>
+                          </section>
+                        </div>
+
+                        <div class="country-slider__index-card-col">
+                          <section class="country-slider__index-card">
+                            <h5 class="country-slider__index-card-title">Public authorities</h5>
+                            <p class="country-slider__index-card-score  f">
+                              <span>13</span>
+                              <span>F</span>
+                            </p>
+                          </section>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+              </article>
+
+            </div>
+
+            <div class="country-slider__controls">
+              <div class="swiper-button-prev"></div>
+              <a href="#" class="btn  btn--white">Переглянути аналітику</a>
+              <div class="swiper-button-next"></div>
+            </div>
+          </div>
+
+          <section class="index-use-slider">
+            <h3 class="h2  index-use-slider__title">Використання Індексу</h3>
+            <p class="index-use-slider__intro">Зібрані відкуки та зворотній зв’язок від практичного використання Індексу прозорості енергетики України</p>
+
+            <div class="swiper  index-use-slider__container">
+              <div class="swiper-wrapper">
+
+                <div class="swiper-slide  index-use-slider__slide">
+                  <div class="index-use-slider__header">
+                    <div class="embed-responsive embed-responsive--1-1  index-use-slider__logo">
+                      <picture>
+                        <!-- <source srcset="img/any-logo-1.swiper-button-prev,
+                                        img/any-logo-1.swiper-button-prev 2x"
+                                        type="image/webp"> -->
+                        <img src="img/any-logo-1.jpg"
+                             srcset="img/any-logo-1.jpg,
+                                     img/any-logo-1.jpg 2x"
+                             alt="Alt text"
+                             width="116"
+                             height="116"
+                             loading="lazy">
+                        <!-- 116x116, 232x232 2x -->
+                      </picture>
+                    </div>
+                    <h4 class="index-use-slider__slide-title">Міжнародний Індекс прозорості енергетики</h4>
+                  </div>
+                  <div class="index-use-slider__text">
+                    <p>Міжнародна версія Індексу, яка дозволяє комплексно порівнювати рівень прозорості енергетичних секторів різних країн. Таке порівняння сприяє здоровій конкуренції між країнами-учасницям та поширенню кращих практик. Міжнародний Індекс застосовується до 4 країн - Грузії, Молдови, України та Румунії.</p>
+                  </div>
+                </div>
+
+                <div class="swiper-slide  index-use-slider__slide">
+                  <div class="index-use-slider__header">
+                    <div class="embed-responsive embed-responsive--1-1  index-use-slider__logo">
+                      <picture>
+                        <!-- <source srcset="img/any-logo-1.swiper-button-prev,
+                                        img/any-logo-1.swiper-button-prev 2x"
+                                        type="image/webp"> -->
+                        <img src="img/any-logo-1.jpg"
+                             srcset="img/any-logo-1.jpg,
+                                     img/any-logo-1.jpg 2x"
+                             alt="Alt text"
+                             width="116"
+                             height="116"
+                             loading="lazy">
+                        <!-- 116x116, 232x232 2x -->
+                      </picture>
+                    </div>
+                    <h4 class="index-use-slider__slide-title">Міжнародний Індекс прозорості енергетики</h4>
+                  </div>
+                  <div class="index-use-slider__text">
+                    <p>Міжнародна версія Індексу, яка дозволяє комплексно порівнювати рівень прозорості енергетичних секторів різних країн. Таке порівняння сприяє здоровій конкуренції між країнами-учасницям та поширенню кращих практик. Міжнародний Індекс застосовується до 4 країн - Грузії, Молдови, України та Румунії.</p>
+                    <p><a href="#">Міжнародна версія Індексу</a>, яка дозволяє комплексно порівнювати рівень прозорості енергетичних секторів різних країн. Таке порівняння сприяє здоровій конкуренції між країнами-учасницям та поширенню кращих практик.</p>
+                  </div>
+                </div>
+
+                <div class="swiper-slide  index-use-slider__slide">
+                  <div class="index-use-slider__header">
+                    <div class="embed-responsive embed-responsive--1-1  index-use-slider__logo">
+                      <picture>
+                        <!-- <source srcset="img/any-logo-1.swiper-button-prev,
+                                        img/any-logo-1.swiper-button-prev 2x"
+                                        type="image/webp"> -->
+                        <img src="img/any-logo-1.jpg"
+                             srcset="img/any-logo-1.jpg,
+                                     img/any-logo-1.jpg 2x"
+                             alt="Alt text"
+                             width="116"
+                             height="116"
+                             loading="lazy">
+                        <!-- 116x116, 232x232 2x -->
+                      </picture>
+                    </div>
+                    <h4 class="index-use-slider__slide-title">Міжнародний Індекс прозорості енергетики</h4>
+                  </div>
+                  <div class="index-use-slider__text">
+                    <p>Міжнародна версія Індексу, яка дозволяє комплексно порівнювати рівень прозорості енергетичних секторів різних країн. Таке порівняння сприяє здоровій конкуренції між країнами-учасницям та поширенню кращих практик. Міжнародний Індекс застосовується до 4 країн - Грузії, Молдови, України та Румунії.</p>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="country-slider__controls  index-use-slider__controls">
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              </div>
+
+            </div>
+          </section>
+
+
+        </section>
+
+
+        <div class="container  download-index__wrapper" style="background-color:#f5f5f5;">
+
+          <article class="download-index">
+            <div class="download-index__inner">
+              <div class="download-index__img">
+                <div class="embed-responsive embed-responsive--index-img">
+                  <picture>
+                    <source srcset="img/transparency-index-2020.webp" media="(min-width: 1280px)" type="image/webp">
+                    <source srcset="img/transparency-index-2020.jpg" media="(min-width: 1280px)">
+                      <!-- 282x327, 564x654 2x -->
+                    <source srcset="img/transparency-index-2020.webp" media="(min-width: 768px)" type="image/webp">
+                    <source srcset="img/transparency-index-2020.jpg" media="(min-width: 768px)">
+                      <!-- 224x260, 448x520 2x -->
+                    <source srcset="img/transparency-index-2020.webp" media="(min-width: 360px)" type="image/webp">
+                    <source srcset="img/transparency-index-2020.jpg" media="(min-width: 360px)">
+                      <!-- 328x380, 656x760 2x -->
+                    <img src="img/transparency-index-2020.jpg" alt="transparency-index-2020" width="656" height="760" loading="lazy">
+                  </picture>
+                </div>
+              </div>
+              <div class="download-index__text">
+                <h2 class="download-index__title">Індекс прозорості енергетики України 2023 рік</h2>
+                <p class="download-index__intro">Презентуючи результати, отримані при підготовці попередніх п’яти видань Індексу прозорості енергетики у 2018-2023 роках, ми ставили за мету отримати широкий зворотний зв’язок від експертів з різних аспектів енергетики: вироблення політики, державного регулювання та моніторингу ринків, енергетичної безпеки, інвестування, конкуренції та ціноутворення, захисту прав споживачів тощо. Дискусії з міжнародними та українськими фахівцями сприяли удосконаленню Індексу прозорості енергетики в частині методології, аналізу та представлення результатів оцінювання</p>
+                <a href="#" class="btn" download><span>Завантажити файлt</span></a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <section class="container  partner-projects">
+          <div class="partner-projects__header">
+            <h2 class="partner-projects__title">Партнерські проекти </h2>
+            <p>Текст Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat habitant diam, consectetur convallis scelerisque.</p>
+          </div>
+
+          <div class="row  partner-projects__row">
+
+            <div class="partner-projects__col">
+              <a href="#" class="partner-projects__img" title="Заголовок 1">
+                <picture>
+                  <source srcset="img/project-01.webp" type="image/webp">
+                  <img src="img/project-01.jpg" alt="Описание" width="447" height="217" loading="lazy" decoding="async">
+                </picture>
+              </a>
+            </div>
+
+            <div class="partner-projects__col">
+              <a href="#" class="partner-projects__img" title="Заголовок 1">
+                <picture>
+                  <source srcset="img/project-02.webp" type="image/webp">
+                  <img src="img/project-02.jpg" alt="Описание" width="447" height="217" loading="lazy" decoding="async">
+                </picture>
+              </a>
+            </div>
+
+            <div class="partner-projects__col">
+              <a href="#" class="partner-projects__img" title="Заголовок 1">
+                <picture>
+                  <source srcset="img/project-03.webp" type="image/webp">
+                  <img src="img/project-03.jpg" alt="Описание" width="447" height="217" loading="lazy" decoding="async">
+                </picture>
+              </a>
+            </div>
+
+            <div class="partner-projects__col">
+              <a href="#" class="partner-projects__img" title="Заголовок 1">
+                <picture>
+                  <source srcset="img/project-04.webp" type="image/webp">
+                  <img src="img/project-04.jpg" alt="Описание" width="447" height="217" loading="lazy" decoding="async">
+                </picture>
+              </a>
+            </div>
+
+            <div class="partner-projects__col">
+              <a href="#" class="partner-projects__img" title="Заголовок 1">
+                <picture>
+                  <source srcset="img/project-05.webp" type="image/webp">
+                  <img src="img/project-05.jpg" alt="Описание" width="447" height="217" loading="lazy" decoding="async">
+                </picture>
+              </a>
+            </div>
+
+            <div class="partner-projects__col">
+              <a href="#" class="partner-projects__img" title="Заголовок 1">
+                <picture>
+                  <source srcset="img/project-06.webp" type="image/webp">
+                  <img src="img/project-06.jpg" alt="Описание" width="447" height="217" loading="lazy" decoding="async">
+                </picture>
+              </a>
+            </div>
+
+          </div>
+        </section>
+
+
+      </main>
+
+    </div>
+
+    <div class="page__footer-wrapper">
+
+      <footer class="container  page-footer">
+        <div class="row  page-footer__row">
+
+          <div class="page-footer__logo-col">
+            <a href="index.html" class="logo" title="Індекс прозорості енергетики України">
+              <img src="img/index-ua-logo.svg" alt="Індекс прозорості енергетики України logo" width="284" height="64">
+            </a>
+            <div class="page-footer__email">
+              <a href="mailto:author@dixigroup.org" class="page-footer__menu-link  page-footer__menu-link--email">author@dixigroup.org</a>
+            </div>
+          </div>
+
+          <div class="page-footer__menu-col">
+            <nav class="page-footer__menu">
+              <ul class="row  list-nostyled  page-footer__menu-list">
+                <li class="page-footer__menu-item">
+                  <a href="#" class="page-footer__menu-link">Головна</a>
+                </li>
+                <li class="page-footer__menu-item">
+                  <a href="#" class="page-footer__menu-link">Про нас</a>
+                </li>
+                <li class="page-footer__menu-item">
+                  <a href="#" class="page-footer__menu-link">Аналітика</a>
+                </li>
+                <li class="page-footer__menu-item">
+                  <a href="#" class="page-footer__menu-link">Індикатори</a>
+                </li>
+                <li class="page-footer__menu-item">
+                  <a href="#" class="page-footer__menu-link">Методологія</a>
+                </li>
+                <li class="page-footer__menu-item">
+                  <a href="#" class="page-footer__menu-link">Звіти</a>
+                </li>
+                <li class="page-footer__menu-item">
+                  <a href="#" class="page-footer__menu-link">Відновлення прозорості</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+
+          <div class="page-footer__info-col">
+            <div class="page-footer__info">
+              <p class="page-footer__text">
+                Робота веб-сайту стала можливою завдяки підтримці американського народу через Агентство США з міжнародного розвитку (USAID). За зміст інформації несе виключну відповідальність DiXi Group, він не обов'язково відображає погляди USAID або Уряду Сполучених Штатів.
+              </p>
+              <div class="page-footer__partners">
+                <a href="#" class="page-footer__partner" title="USAID">
+                  <img src="img/usaid-logo.svg" width="147" height="44" alt="USAID logo" loading="lazy">
+                </a>
+                <a href="#" class="page-footer__partner" title="DIXIGROUP">
+                  <img src="img/dixigroup-logo.svg" alt="DIXIGROUP logo" width="205" height="44" loading="lazy">
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <section class="copyrights">
+          <h2 class="visually-hidden">Copyrights</h2>
+          <div class="copyrights__inner">
+            <div class="copyrights__owner">
+              <span>© 2023 Index. All rights reserved.</span>
+            </div>
+            <div class="copyrights__dev">
+              <a href="https://it-doors.com.ua" target="_blank" rel="nofollow noopener" title="IT-Doors Outsourcing, developer">
+                <img src="img/it-doors-logo.svg" width="59" height="22" alt="IT-Doors logo" loading="lazy">
+              </a>
+            </div>
+          </div>
+        </section>
+
+      </footer>
+
+    </div>
+
+  </div>
+
+  <!-- Modal -->
+  <div class="modal-form  modal fade" id="formModal" tabindex="-1" aria-labelledby="formModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title  modal-form__title" id="formModalLabel">Отримати таблиці показників</h4>
+          <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+            <span class="visually-hidden">Закрыть модальное окно</span>
+            <svg width="26" height="26"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-svg.svg#close"></use></svg>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form id="getTable" action="" method="post">
+
+            <label class="field-text">
+              <span class="field-text__input-wrap">
+                <input class="field-text__input  field-text__input--required" type="text" name="name" value="" placeholder="First name">
+                <span class="field-text__help-text  error_name">Error</span>
+              </span>
+            </label>
+
+            <label class="field-text">
+              <span class="field-text__input-wrap">
+                <input class="field-text__input  field-text__input--required" type="text" name="surname" value="" placeholder="Surname">
+                <span class="field-text__help-text  error_surname"></span>
+              </span>
+            </label>
+
+            <label class="field-text">
+              <span class="field-text__input-wrap">
+                <input class="field-text__input  field-text__input--required" type="text" name="country" value="" placeholder="Country">
+                <span class="field-text__help-text  error_country"></span>
+              </span>
+            </label>
+
+            <label class="field-text">
+              <span class="field-text__input-wrap">
+                <input class="field-text__input" type="text" name="organiz" value="" placeholder="Organization">
+                <span class="field-text__help-text  error_organiz"></span>
+              </span>
+            </label>
+
+            <label class="field-text">
+              <span class="field-text__input-wrap">
+                <input class="field-text__input  field-text__input--required" type="email" name="email" value="" placeholder="E-mail">
+                <span class="field-text__help-text  error_email"></span>
+              </span>
+            </label>
+
+            <div class="field-checkbox__wrapper">
+              <div class="field-checkbox">
+                <label class="field-checkbox__name">
+                  <input class="field-checkbox__input" type="checkbox" name="year2020" value="">
+                  <span class="field-checkbox__name-text">Table for 2020</span>
+                </label>
+              </div>
+              <div class="field-checkbox">
+                <label class="field-checkbox__name">
+                  <input class="field-checkbox__input" type="checkbox" name="year2021" value="">
+                  <span class="field-checkbox__name-text">Table for 2021</span>
+                </label>
+              </div>
+              <div class="field-checkbox">
+                <label class="field-checkbox__name">
+                  <input class="field-checkbox__input" type="checkbox" name="year2022" value="">
+                  <span class="field-checkbox__name-text">Table for 2022</span>
+                </label>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn"><span>Отримати</span></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script> -->
+
+  <script src="js/script.min.js"></script>
+
+
+</body>
+</html>

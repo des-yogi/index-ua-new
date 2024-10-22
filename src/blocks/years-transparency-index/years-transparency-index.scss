@@ -1,0 +1,150 @@
+.years-transparency-index {
+  padding-top: 48px;
+  padding-bottom: 48px;
+  border-bottom: 2px solid $divider-color;
+
+  @media (min-width: $screen-md) {
+    padding-top: 56px;
+    padding-bottom: 56px;
+  }
+
+  @media (min-width: $screen-xl) {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+
+  $block-name:                &; // #{$block-name}__element
+
+  &__header {
+
+    @media (min-width: $screen-md) {
+      max-width: calc(75% - 16px);
+    }
+
+    @media (min-width: $screen-xl) {
+      max-width: calc(50% - 16px);
+    }
+  }
+
+  &__header {
+    margin-bottom: 24px;
+  }
+
+  &__row {
+    gap: 32px 0;
+  }
+
+  &__col {
+    @include col(xs, 12);
+    @include col(sm, 6);
+    @include col(md, 4);
+    @include col(lg, 3);
+    //margin-bottom: 32px;
+
+    // @media (min-width: $screen-lg) {
+    //   margin-bottom: 0;
+    // }
+  }
+
+  &__img {
+    display: block;
+    position: relative;
+
+    &:hover,
+    &:focus {
+      //box-shadow: $shadow;
+
+      & + p {
+        color: $link-color--hover;
+
+        span {
+          text-decoration: underline;
+        }
+      }
+    }
+
+    img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      //max-width: 326px;
+      //margin: 0 auto;
+    }
+  }
+
+  &__img-caption {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 60px;
+    padding: 0 16px;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+
+    @media (min-width: $screen-sm) {
+      bottom: 30px;
+    }
+
+    @media (min-width: $screen-md) {
+      bottom: 90px;
+    }
+
+    @media (min-width: $screen-lg) {
+      bottom: 30px;
+    }
+
+    @media (min-width: $screen-xl) {
+      bottom: 50px;
+    }
+
+    @media (min-width: $screen-xxl) {
+      bottom: 90px;
+    }
+
+    span {
+      display: block;
+      font-size: 14px;
+      font-weight: 400;
+    }
+  }
+
+  &__descr {
+    position: relative;
+    padding-left: 36px;
+    margin-top: 24px;
+    font-size: $font-size-md;
+    color: $link-color;
+    line-height: 24px;
+
+    &::before {
+      display: block;
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 24px;
+      height: 24px;
+      background-repeat: no-repeat;
+      background-position: center top;
+      background-size: 24px;
+      background-image: svg-load('../blocks/sprite-svg/svg/download.svg', fill=$main-color);
+    }
+  }
+
+  // &__downloads {
+  //   padding-top: 24px;
+  //   margin-top: 32px;
+  //   border-top: 1.5px solid $black;
+
+  //   @media (min-width: $screen-md) {
+  //     padding-top: 32px;
+  //     //margin-top: 64px;
+  //   }
+  // }
+
+  // &__downloads-inner {
+  //   margin-bottom: 24px;
+  //   font-size: $font-size-md;
+  // }
+}

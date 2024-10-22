@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html class="no-js  page" lang="uk" prefix="og: https://ogp.me/ns#">
+
+<head>
+  <meta charset="utf-8">
+  <title>Відновлення прозорості</title>
+  @@include('_include/page_head.html')
+</head>
+
+<body>
+<noscript>У вас отключен JavaScript.  Приносим наши извинения, но это делает затруднительным использование данного сайта.</noscript>
+
+  <div class="page__inner">
+
+    <div class="page__content">
+      @@include('blocks/page-header/page-header.html')
+
+      <main class="main">
+
+        <article class="article">
+
+          <div class="container  intro-block">
+            <div class="row">
+              <div class="intro-block__col  intro-block__col--text">
+                <h1 class="intro-block__title">Відновлення прозорості під час війни</h1>
+                <div class="intro-block__text">
+                  <p>Індекс дозволяє не лише оцінити фактичний стан прозорості енергетичного сектору, але й визначити, якою ця прозорість могла б бути за умови врахування рекомендацій, наданих авторами Індексу. Такі сценарні розрахунки дозволяють побачити <strong>невикористаний потенціал для зростання відкритості галузі</strong>, який можна реалізувати в стислі терміни і таким чином оперативно покращити якість та обсяг розкриття інформації.</p>
+                  <p>Подані в цьому розділі потенційні оцінки Індексу розраховані виключно на основі <strong>рекомендацій, які можуть бути втілені навіть в умовах воєнного стану</strong> без ризиків розкриття дійсно чутливої інформації. Водночас врахування таких рекомендацій відповідальними органами дозволить покращити громадський нагляд за енергетичним сектором, зменшити корупційні ризики, підвищити довіру міжнародних партнерів в ході процесу повоєнної відбудови та залучити необхідні інвестиції для цих цілей.</p>
+                </div>
+                <!-- <div class="intro-block__link-wrapper">
+                  <a href="#" class="btn"><span>Детальніше</span></a>
+                </div> -->
+              </div>
+
+              <!-- <div class="intro-block__col">
+                <div class="embed-responsive embed-responsive--1-1  intro-block__img">
+                  <picture>
+                    <source srcset="img/hero-1.webp 585w,
+                                    img/hero-1.webp 700w,
+                                    img/hero-1.webp 800w,
+                                    img/hero-1.webp 900w"
+                            sizes="(max-width: 620px) 95vw, 585px"
+                            type="image/webp">
+
+                    <source srcset="img/hero-1.jpg 585w,
+                                    img/hero-1.jpg 700w,
+                                    img/hero-1.jpg 800w,
+                                    img/hero-1.jpg 900w"
+                            sizes="(max-width: 620px) 95vw, 585px">
+
+                    <img src="img/hero-1.jpg" alt="alt text" width="585" height="585">
+                  </picture>
+                </div>
+              </div> -->
+            </div>
+          </div>
+
+          <div class="container  article__content">
+            <div class="row">
+
+              <div class="article__inner-col">
+                <h2>Загальний потенціал зростання прозорості</h2>
+                <p>Графік дозволяє порівняти фактичні та потенційні інтегральні бали Індексу прозорості за різними роками, починаючи з 2022 року.</p>
+
+                <div class="checkbox-btn__wrapper">
+                  @@include('blocks/checkbox-btn/checkbox-btn.html', {
+                    "type": "checkbox",
+                    "prefix": "year",
+                    "label": "2022",
+                    "checked": "checked"
+                  })
+                  @@include('blocks/checkbox-btn/checkbox-btn.html', {
+                    "type": "checkbox",
+                    "prefix": "year",
+                    "label": "2023",
+                    "checked": ""
+                  })
+                </div>
+
+                <div class="diagram-container"><span>[Диаграмма]</span></div>
+              </div>
+
+              <hr>
+
+              <div class="article__inner-col">
+                <h2>Потенціал зростання прозорості за категоріями</h2>
+                <p>Графік демонструє фактичний та потенційний рівень прозорості енергетичного сектору України за окремими категоріями Індексу. Додатково є можливість порівняти відповідні показники з довоєнними оцінками, нажавши кнопку “Додати базовий довоєнний показник (2021 рік)</p>
+
+                <div class="checkbox-btn__wrapper">
+                  @@include('blocks/checkbox-btn/checkbox-btn.html', {
+                    "type": "checkbox",
+                    "prefix": "year",
+                    "label": "2022",
+                    "checked": "checked"
+                  })
+                  @@include('blocks/checkbox-btn/checkbox-btn.html', {
+                    "type": "checkbox",
+                    "prefix": "year",
+                    "label": "2023",
+                    "checked": ""
+                  })
+                </div>
+
+                <div class="field-checkbox" style="margin: 24px 0;">
+                  <label class="field-checkbox__name">
+                    <input class="field-checkbox__input" type="checkbox" name="" value="">
+                    <span class="field-checkbox__name-text">Додати базовий довоєнний показник</span>
+                  </label>
+                </div>
+
+                <div class="diagram-container"><span>[Диаграмма]</span></div>
+              </div>
+
+              <hr>
+
+              <div class="article__inner-col">
+                <h2>Потенціал зростання прозорості за секторами (ринками)</h2>
+                <p>Гістограми дозволяють порівняти фактичний та потенційний рівень прозорості в різні роки на 5 енергетичних ринках:</p>
+                <ul>
+                  <li>природного газу;</li>
+                  <li>електричної енергії;</li>
+                  <li>нафти й рідкого палива;</li>
+                  <li>енергетичного вугілля;</li>
+                  <li>теплової енергії.</li>
+                </ul>
+                <p>Для секторів енергетики, де товарні ринки ще формуються (енергетичне вугілля, теплова енергія), розраховані індекси є довідковими.</p>
+
+                <div class="checkbox-btn__wrapper">
+                  @@include('blocks/checkbox-btn/checkbox-btn.html', {
+                    "type": "checkbox",
+                    "prefix": "year",
+                    "label": "2022",
+                    "checked": ""
+                  })
+                  @@include('blocks/checkbox-btn/checkbox-btn.html', {
+                    "type": "checkbox",
+                    "prefix": "year",
+                    "label": "2023",
+                    "checked": "checked"
+                  })
+                </div>
+
+                <div class="diagram-container"><span>[Диаграмма]</span></div>
+              </div>
+
+              <hr>
+
+              <div class="article__inner-col">
+                <h2>Потенціал зростання прозорості</h2>
+                <p>Порівняння фактичної та потенційної прозорості окремих державних органів, відповідальних за розкриття інформації в енергетичному секторі. Розрахунок оцінок здійснюється в розрізі окремих індикаторів Індексу, які асоціюються з тим чи іншим органом влади. Оскільки кількість індикаторів за органами влади є різною, розраховані оцінки не можуть використовуватись для рейтингування органів влади за рівнем прозорості і мають сприйматися як індикативні.</p>
+
+                <div class="checkbox-btn__wrapper">
+                  @@include('blocks/checkbox-btn/checkbox-btn.html', {
+                    "type": "checkbox",
+                    "prefix": "year",
+                    "label": "2022",
+                    "checked": ""
+                  })
+                  @@include('blocks/checkbox-btn/checkbox-btn.html', {
+                    "type": "checkbox",
+                    "prefix": "year",
+                    "label": "2023",
+                    "checked": "checked"
+                  })
+                </div>
+
+                <div class="diagram-container"><span>[Диаграмма]</span></div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </article>
+
+      </main>
+
+    </div>
+
+    <div class="page__footer-wrapper">
+      @@include('blocks/page-footer/page-footer.html')
+    </div>
+
+  </div>
+
+  @@include('blocks/modal-form/modal-form.html')
+
+  @@include('_include/page_bottom.html')
+
+</body>
+</html>

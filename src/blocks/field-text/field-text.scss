@@ -17,8 +17,8 @@
     display: inline-block;
     vertical-align: middle;
     width: 100%;
-    height: 56px;
-    padding: $field-padding-vertical  $field-padding-horizontal;
+    height: 48px;
+    padding: 0 $field-padding-horizontal;
     margin: 0;
     line-height: $line-height;
     font-size: 16px;
@@ -75,7 +75,7 @@
       padding-right: 40px;
       background-repeat: no-repeat;
       background-size: 10px;
-      background-position: right 20px top 22px;
+      background-position: right 20px top 18px;
       background-image: svg-load('../blocks/field-text/bg-img/asterisk.svg', fill=$main-color);
     }
   }

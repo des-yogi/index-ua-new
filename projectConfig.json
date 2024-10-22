@@ -43,7 +43,8 @@
     "different-authorities": [],
     "score-interpretation": [],
     "checkbox-btn": [],
-    "index-structure": []
+    "index-structure": [],
+    "years-transparency-index": []
   },
   "addCssBefore": [
     "../../node_modules/bootstrap/scss/_functions",
