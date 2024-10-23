@@ -9,18 +9,18 @@
   }
 
   &__wrapper {
-    padding-top: 48px;
-    padding-bottom: 48px;
+    padding-top: 64px;
+    padding-bottom: 64px;
 
-    @media (min-width: $screen-md) {
-      padding-top: 56px;
-      padding-bottom: 56px;
-    }
+    // @media (min-width: $screen-md) {
+    //   padding-top: 56px;
+    //   padding-bottom: 56px;
+    // }
 
-    @media (min-width: $screen-xl) {
-      padding-top: 64px;
-      padding-bottom: 64px;
-    }
+    // @media (min-width: $screen-xl) {
+    //   padding-top: 64px;
+    //   padding-bottom: 64px;
+    // }
 
     &--list {
       padding-top: 40px;
@@ -33,36 +33,40 @@
     @media (min-width: $screen-md) {
       display: flex;
       justify-content: space-between;
+      gap: 0 32px;
     }
 
     @media (min-width: $screen-xl) {
       justify-content: initial;
+      gap: 0 128px;
     }
   }
 
   &__img {
-    max-width: 328px; // h380
+    max-width: 352px; // h380
+    margin: 0 auto;
 
     @media (max-width: $screen-md - 1) {
-      margin-bottom: 24px;
+      margin-bottom: 32px;
     }
 
     @media (min-width: $screen-md) {
-      flex: 0 0 224px;
-      width: 224px;
-      margin-right: 24px;
+      flex: 0 0 328px;
+      margin-left: 0;
     }
 
     @media (min-width: $screen-xl) {
-      flex: 0 0 282px;
-      width: 282px;
-      margin-right: 126px;
+      flex: 0 0 352px;
     }
 
     img {
       object-fit: cover;
       object-position: center;
     }
+  }
+
+  &__title {
+    margin-top: 0;
   }
 
   &__text {
@@ -72,13 +76,12 @@
     }
 
     @media (min-width: $screen-xl) {
-      flex: 0 0 690px;
-      //width: 690px;
+      flex: 1 1 auto;
     }
   }
 
   &__intro {
     margin-bottom: 24px;
-    font-size: $font-size-sm;
+    font-size: inherit;
   }
 }

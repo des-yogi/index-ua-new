@@ -1,16 +1,16 @@
 .years-transparency-index {
-  padding-top: 48px;
-  padding-bottom: 48px;
-  border-bottom: 2px solid $divider-color;
+  margin-top: 56px;
+  margin-bottom: 28px;
+  //border-bottom: 2px solid $divider-color;
 
-  @media (min-width: $screen-md) {
-    padding-top: 56px;
-    padding-bottom: 56px;
-  }
+  // @media (min-width: $screen-md) {
+  //   padding-top: 56px;
+  //   padding-bottom: 56px;
+  // }
 
   @media (min-width: $screen-xl) {
-    padding-top: 64px;
-    padding-bottom: 64px;
+    margin-top: 80px;
+    margin-bottom: 40px;
   }
 
   $block-name:                &; // #{$block-name}__element
@@ -113,6 +113,7 @@
     position: relative;
     padding-left: 36px;
     margin-top: 24px;
+    margin-bottom: 0;
     font-size: $font-size-md;
     color: $link-color;
     line-height: 24px;
