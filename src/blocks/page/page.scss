@@ -328,8 +328,20 @@ a {
 
 .main {
 
+  // & > *:first-child {
+  //   margin-top: 64px;
+
+  //   @media (min-width: $screen-xl) {
+  //     margin-top: 80px;
+  //   }
+  // }
+
   & > *:last-child {
-    padding-bottom: 96px;
+    margin-bottom: 64px;
+
+    @media (min-width: $screen-xl) {
+      margin-bottom: 80px;
+    }
   }
 }
 
@@ -388,7 +400,8 @@ a {
 .d-minus,
 .f {
 
-  & + span {
+  & + span,
+  .country-slider__score-title {
     color: $white;
   }
 }
@@ -400,7 +413,8 @@ a {
 .c-minus,
 .d-plus {
 
-  & + span {
+  & + span,
+  .country-slider__score-title {
     color: $title-color;
   }
 }

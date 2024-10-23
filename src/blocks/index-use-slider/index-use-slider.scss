@@ -1,7 +1,12 @@
 .index-use-slider {
-  padding-top: 28px;
-  margin-top: 32px;
-  border-top: 2px solid $divider-color;
+  //padding-top: 28px;
+  //margin-top: 32px;
+  //border-top: 2px solid $divider-color;
+  margin: 56px 0;
+
+  @media (min-width: $screen-xl) {
+    margin: 80px 0;
+  }
 
   $block-name:                &; // #{$block-name}__element
 

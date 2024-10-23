@@ -214,10 +214,15 @@ hr {
   box-sizing: content-box; // Проблема Firefox
   height: 0;               // Проблема Firefox
   overflow: visible;       // Проблема Edge и IE
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 28px;
+  margin-bottom: 28px;
   border: 0;
   border-top: 2px solid $divider-color;
+
+  @media (min-width: $screen-xl) {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
 }
 
 .small,

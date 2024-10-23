@@ -2,17 +2,13 @@
 
   $block-name:                &; // #{$block-name}__element
 
-  padding-top: 48px;
-  padding-bottom: 24px;
+  //padding-top: 48px;
+  //padding-bottom: 24px;
+  margin-top: 56px;
   //border-bottom: 2px solid $divider-color;
 
-  @media (min-width: $screen-md) {
-    padding-top: 56px;
-    padding-bottom: 32px;
-  }
-
   @media (min-width: $screen-xl) {
-    padding-top: 64px;
+    margin-top: 80px;
     //padding-bottom: 64px;
   }
 

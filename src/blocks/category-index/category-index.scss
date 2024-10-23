@@ -1,17 +1,15 @@
 .category-index {
-  padding-top: 48px;
-  padding-bottom: 48px;
-  border-bottom: 2px solid $divider-color;
+  //margin: 56px 0 0;
+  //border-bottom: 2px solid $divider-color;
 
-  @media (min-width: $screen-md) {
-    padding-top: 56px;
-    padding-bottom: 56px;
-  }
+  // @media (min-width: $screen-md) {
+  //   padding-top: 56px;
+  //   padding-bottom: 56px;
+  // }
 
-  @media (min-width: $screen-xl) {
-    padding-top: 64px;
-    padding-bottom: 64px;
-  }
+  // @media (min-width: $screen-xl) {
+
+  // }
 
   $block-name:                &; // #{$block-name}__element
 

@@ -7,16 +7,15 @@
     <div class="download-index__img">
       <div class="embed-responsive embed-responsive--index-img">
         <picture>
-          <source srcset="img/transparency-index-2020.webp" media="(min-width: 1280px)" type="image/webp">
-          <source srcset="img/transparency-index-2020.jpg" media="(min-width: 1280px)">
-            <!-- 282x327, 564x654 2x -->
-          <source srcset="img/transparency-index-2020.webp" media="(min-width: 768px)" type="image/webp">
-          <source srcset="img/transparency-index-2020.jpg" media="(min-width: 768px)">
-            <!-- 224x260, 448x520 2x -->
-          <source srcset="img/transparency-index-2020.webp" media="(min-width: 360px)" type="image/webp">
-          <source srcset="img/transparency-index-2020.jpg" media="(min-width: 360px)">
-            <!-- 328x380, 656x760 2x -->
-          <img src="img/transparency-index-2020.jpg" alt="transparency-index-2020" width="656" height="760" loading="lazy">
+          <source srcset="img/transparency-index-2020.webp,
+                          img/transparency-index-2020.webp 2x" type="image/webp">
+          <!-- 352x408, 528x720 -->
+          <img src="img/transparency-index-2020.jpg"
+               srcset="img/transparency-index-2020.jpg,
+                       img/transparency-index-2020.jpg 2x"
+               alt="Alt text"
+               width="528"
+               height="720" loading="lazy">
         </picture>
       </div>
     </div>

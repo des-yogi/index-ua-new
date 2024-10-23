@@ -81,24 +81,29 @@
   }
 
   &__block {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    //padding-top: 40px;
+    //padding-bottom: 40px;
 
     @media (min-width: $screen-xl) {
       max-width: 792px;
     }
 
-    & + &,
+    h3 {
+      margin-top: 0;
+    }
+
+    //& + &,
     &:first-child {
-      padding-top: 48px;
+      margin-top: 56px;
+      padding-top: 0;
       padding-bottom: 0;
 
-      @media (min-width: $screen-md) {
-        padding-top: 56px;
-      }
+      // @media (min-width: $screen-md) {
+      //   padding-top: 56px;
+      // }
 
       @media (min-width: $screen-xl) {
-        padding-top: 64px;
+        margin-top: 80px;
       }
     }
 
