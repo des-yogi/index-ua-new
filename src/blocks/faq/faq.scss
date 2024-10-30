@@ -92,5 +92,13 @@
     background-color: $block-bg;
     border-bottom-left-radius: $border-radius;
     border-bottom-right-radius: $border-radius;
+
+    & > *:first-child {
+      margin-top: 0;
+    }
+
+    & > *:last-child {
+      margin-bottom: 0;
+    }
   }
 }

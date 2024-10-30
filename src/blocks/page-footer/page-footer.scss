@@ -29,14 +29,14 @@
 
   &__logo-col {
     @include col(xs, 12);
-    @include col(md, 6);
-    @include col(xl, 4);
+    @include col(md, 5.3);
+    @include col(xl, 3.5);
    }
 
   &__menu-col {
     @include col(xs, 12);
-    @include col(md, 6);
-    @include col(xl, 4);
+    @include col(md, 6.7);
+    @include col(xl, 4.5);
   }
 
   &__info-col {
@@ -73,10 +73,6 @@
 
   &__menu-list {
     gap: 16px 0;
-
-    // @media (min-width: $screen-md) {
-    //   gap: 12px 0;
-    // }
   }
 
   &__menu-item {
@@ -85,10 +81,14 @@
   }
 
   &__menu-link {
-    font-size: $font-size-md;
+    font-size: $font-size-sm;
     font-weight: 500;
     line-height: 1.2;
     color: inherit;
+
+    @media (min-width: $screen-md) and (max-width: $screen-lg) {
+      white-space: nowrap;
+    }
 
     &:hover,
     &:focus {
@@ -98,6 +98,7 @@
     &--email {
       position: relative;
       padding-left: 44px;
+      margin-left: 32px;
       font-size: $font-size;
 
       &::before {
