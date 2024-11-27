@@ -42,7 +42,8 @@
     "score-interpretation": [],
     "checkbox-btn": [],
     "index-structure": [],
-    "years-transparency-index": []
+    "years-transparency-index": [],
+    "target-audience": []
   },
   "addCssBefore": [
     "../../node_modules/bootstrap/scss/_functions",

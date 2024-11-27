@@ -1,0 +1,17 @@
+ .target-audience {
+
+  $block-name:                &; // #{$block-name}__element
+
+  &__headings {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+    img {
+      flex: 0 0 64px;
+      width: 64px;
+      height: 56px;
+      filter: drop-shadow(0 0 1.56px rgba(38, 39, 54, 0.03)) drop-shadow(0 0 2px rgba(38, 39, 54, 0.07)) drop-shadow(0 0 3.5px rgba(38, 39, 54, 0.09)) drop-shadow(0 0 1.7px rgba(38, 39, 54, 0.16));
+    }
+  }
+}
